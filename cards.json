@@ -1,0 +1,7168 @@
+[
+  {
+    "Name": "Bulbasaur",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 1,
+    "Details": {
+      "Type": "grass",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Vine Whip",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ivysaur",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 2,
+    "Details": {
+      "Type": "grass",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Razor Leaf",
+          "EnergyCost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Venusaur",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 3,
+    "Details": {
+      "Type": "grass",
+      "HP": 160,
+      "Attacks": [
+        {
+          "Name": "Mega Drain",
+          "EnergyCost": [
+            "Grass",
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Heal 30 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Venusaur ex",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 4,
+    "Details": {
+      "Type": "grass",
+      "HP": 190,
+      "Attacks": [
+        {
+          "Name": "Razor Leaf",
+          "EnergyCost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        },
+        {
+          "Name": "Giant Bloom",
+          "EnergyCost": [
+            "Grass",
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": "Heal 30 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Caterpie",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 5,
+    "Details": {
+      "Type": "grass",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Find a Friend",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "AdditionalText": "Put 1 random Grass Pokémon from your deck into your hand"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Metapod",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 6,
+    "Details": {
+      "Type": "grass",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Bug Bite",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Butterfree",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 7,
+    "Details": {
+      "Type": "grass",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Gust",
+          "EnergyCost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": [
+        {
+          "Name": "Powder Heal",
+          "Description": "Once during your turn, you may heal 20 damage from each of your Pokémon"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Weedle",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 8,
+    "Details": {
+      "Type": "grass",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Sting",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kakuna",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 9,
+    "Details": {
+      "Type": "grass",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Bug Bite",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Beedrill",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 10,
+    "Details": {
+      "Type": "grass",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Sharp Sting",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Oddish",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 11,
+    "Details": {
+      "Type": "grass",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Ram",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gloom",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 12,
+    "Details": {
+      "Type": "grass",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Drool",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Vileplume",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 13,
+    "Details": {
+      "Type": "grass",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Soothing Scent",
+          "EnergyCost": [
+            "Grass",
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Your opponent's Active Pokémon is now Asleep"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Paras",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 14,
+    "Details": {
+      "Type": "grass",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Scratch",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Parasect",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 15,
+    "Details": {
+      "Type": "grass",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Slash",
+          "EnergyCost": [
+            "Grass",
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Venonat",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 16,
+    "Details": {
+      "Type": "grass",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Venomoth",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 17,
+    "Details": {
+      "Type": "grass",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Poison Powder",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": "Your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Bellsprout",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 18,
+    "Details": {
+      "Type": "grass",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Vine Whip",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Weepinbell",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 19,
+    "Details": {
+      "Type": "grass",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Razor Leaf",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Victreebel",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 20,
+    "Details": {
+      "Type": "grass",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Vine Whip",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": [
+        {
+          "Name": "Fragrance Trap",
+          "Description": "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Exeggcute",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 21,
+    "Details": {
+      "Type": "grass",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Seed Bomb",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Exeggutor",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 22,
+    "Details": {
+      "Type": "grass",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Stomp",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 60,
+          "CoinFlips": 1,
+          "AdditionalText": "Flip a coin. If heads, this attack does 30 more damage"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Exeggutor ex",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 23,
+    "Details": {
+      "Type": "grass",
+      "HP": 160,
+      "Attacks": [
+        {
+          "Name": "Tropical Swing",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 80,
+          "CoinFlips": 1,
+          "AdditionalText": "Flip a coin. If heads, this attack does 40 more damage"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Tangela",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 24,
+    "Details": {
+      "Type": "grass",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Absorb",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": "Heal 30 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Scyther",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 25,
+    "Details": {
+      "Type": "grass",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Sharp Scythe",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pinsir",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 26,
+    "Details": {
+      "Type": "grass",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Double Horn",
+          "EnergyCost": [
+            "Grass",
+            "Grass"
+          ],
+          "MaxDamage": 100,
+          "IsVariableDamage": true,
+          "CoinFlips": 2,
+          "AdditionalText": "Flip 2 coins. This attack does 50 damage for each heads"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Cottonee",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 27,
+    "Details": {
+      "Type": "grass",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Attach",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Whimsicott",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 28,
+    "Details": {
+      "Type": "grass",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Rolling Tackle",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Petilil",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 29,
+    "Details": {
+      "Type": "grass",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Blot",
+          "EnergyCost": [
+            "Grass"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": "Heal 10 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Lilligant",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 30,
+    "Details": {
+      "Type": "grass",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Leaf Supply",
+          "EnergyCost": [
+            "Grass",
+            "Grass"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": "Take a Grass Energy from your Energy Zone and attach it to 1 of your Benched Grass Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Skiddo",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 31,
+    "Details": {
+      "Type": "grass",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Surprise Attack",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": "Flip a coin. If tails, this attack does nothing"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gogoat",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 32,
+    "Details": {
+      "Type": "grass",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Razor Leaf",
+          "EnergyCost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Charmander",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 33,
+    "Details": {
+      "Type": "fire",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Ember",
+          "EnergyCost": [
+            "Fire"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": "Discard a Fire Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Charmeleon",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 34,
+    "Details": {
+      "Type": "fire",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Fire Claws",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Charizard",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 35,
+    "Details": {
+      "Type": "fire",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Fire Spin",
+          "EnergyCost": [
+            "Fire",
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 150,
+          "MaxDamage": 150,
+          "AdditionalText": "Discard 2 Fire Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Charizard ex",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 36,
+    "Details": {
+      "Type": "fire",
+      "HP": 180,
+      "Attacks": [
+        {
+          "Name": "Slash",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        },
+        {
+          "Name": "Crimson Stom",
+          "EnergyCost": [
+            "Fire",
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 200,
+          "MaxDamage": 200,
+          "AdditionalText": "Discard 2 Fire Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Vulpix",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 37,
+    "Details": {
+      "Type": "fire",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Tail Whip",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "AdditionalText": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ninetales",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 38,
+    "Details": {
+      "Type": "fire",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Flamethrower",
+          "EnergyCost": [
+            "Fire",
+            "Fire"
+          ],
+          "MinDamage": 90,
+          "MaxDamage": 90,
+          "AdditionalText": "Discard a Fire Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Growlithe",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 39,
+    "Details": {
+      "Type": "fire",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Bite",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Arcanine",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 40,
+    "Details": {
+      "Type": "fire",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Heat Tackle",
+          "EnergyCost": [
+            "Fire",
+            "Fire",
+            "Colorless"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": "This Pokémon also does 20 damage to itself"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Arcanine ex",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 41,
+    "Details": {
+      "Type": "fire",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Inferno Onrush",
+          "EnergyCost": [
+            "Fire",
+            "Fire",
+            "Colorless"
+          ],
+          "MinDamage": 120,
+          "MaxDamage": 120,
+          "AdditionalText": "This Pokémon also does 20 damage to itself"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ponyta",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 42,
+    "Details": {
+      "Type": "fire",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Flare",
+          "EnergyCost": [
+            "Fire"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Rapidash",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 43,
+    "Details": {
+      "Type": "fire",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Fire Mane",
+          "EnergyCost": [
+            "Fire"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Magmar",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 44,
+    "Details": {
+      "Type": "fire",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Magma Punch",
+          "EnergyCost": [
+            "Fire",
+            "Fire"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Flareon",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 45,
+    "Details": {
+      "Type": "fire",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Flamethrower",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 110,
+          "MaxDamage": 110,
+          "AdditionalText": "Discard a Fire Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Moltres",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 46,
+    "Details": {
+      "Type": "fire",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Sky Attack",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 130,
+          "MaxDamage": 130,
+          "AdditionalText": "Flip a coin. If tails, this attack does nothing"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Moltres ex",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 47,
+    "Details": {
+      "Type": "fire",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Inferno Dance",
+          "EnergyCost": [
+            "Fire"
+          ],
+          "AdditionalText": "Flip 3 coins. Take an amount of Fire Energy from your Energy Zone equal to the number of heads and attach it to your Benched Fire Pokémon in any way you like"
+        },
+        {
+          "Name": "Heat Blast",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Heatmor",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 48,
+    "Details": {
+      "Type": "fire",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Combustion",
+          "EnergyCost": [
+            "Fire"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Salandit",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 49,
+    "Details": {
+      "Type": "fire",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Scratch",
+          "EnergyCost": [
+            "Fire"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Salazzle",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 50,
+    "Details": {
+      "Type": "fire",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Fire Claws",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Sizzlipede",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 51,
+    "Details": {
+      "Type": "fire",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gnaw",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Centiskorch",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 52,
+    "Details": {
+      "Type": "fire",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Fire Blast",
+          "EnergyCost": [
+            "Fire",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 130,
+          "MaxDamage": 130,
+          "AdditionalText": "Discard a Fire Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "water",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Squirtle",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 53,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Water Gun",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Wartortle",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 54,
+    "Details": {
+      "Type": "water",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Wave Splash",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Blastoise",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 55,
+    "Details": {
+      "Type": "water",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Hydro Pump",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 140,
+          "AdditionalText": "If this Pokémon has at least 2 extra Water Energy attached, this attack does 60 more damage"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Blastoise ex",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 56,
+    "Details": {
+      "Type": "water",
+      "HP": 180,
+      "Attacks": [
+        {
+          "Name": "Surf",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        },
+        {
+          "Name": "Hydro Bazooka",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 160,
+          "AdditionalText": "If this Pokémon has at least 2 extra Water Energy attached, this attack does 60 more damage"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Psyduck",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 57,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Headache",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": "Your opponent can't use any Supporter cards from their hand during their next turn"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Golduck",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 58,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Aqua Edge",
+          "EnergyCost": [
+            "Water",
+            "Water"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Poliwag",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 59,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Razor Fin",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Poliwhirl",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 60,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Knuckle Punch",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Poliwrath",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 61,
+    "Details": {
+      "Type": "water",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Mega Punch",
+          "EnergyCost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": [
+        {
+          "Name": "Counterattack",
+          "Description": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Tentacool",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 62,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gentle Slap",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Tentacruel",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 63,
+    "Details": {
+      "Type": "water",
+      "HP": 110,
+      "Attacks": [
+        {
+          "Name": "Poison Tentacles",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": "Your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Seel",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 64,
+    "Details": {
+      "Type": "water",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Headbutt",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Dewgong",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 65,
+    "Details": {
+      "Type": "water",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Surf",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "MinDamage": 90,
+          "MaxDamage": 90,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Shellder",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 66,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tongue Slap",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Cloyster",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 67,
+    "Details": {
+      "Type": "water",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Surf",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 3,
+      "Abilities": [
+        {
+          "Name": "Shell Armor",
+          "Description": "This Pokémon takes -10 damage from attacks"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Krabby",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 68,
+    "Details": {
+      "Type": "water",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Vise Grip",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kingler",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 69,
+    "Details": {
+      "Type": "water",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "KO Crab",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 160,
+          "AdditionalText": "Flip 2 coins. If both of them are heads, this attack does 80 more damage"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Horsea",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 70,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Water Gun",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Seadra",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 71,
+    "Details": {
+      "Type": "water",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Water Arrow",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "AdditionalText": "This attack does 50 damage to 1 of your opponent's Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Goldeen",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 72,
+    "Details": {
+      "Type": "water",
+      "HP": 40,
+      "Attacks": [
+        {
+          "Name": "Flop",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Seaking",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 73,
+    "Details": {
+      "Type": "water",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Horn Hazard",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Flip a coin. If tails, this attack does nothing"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Staryu",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 74,
+    "Details": {
+      "Type": "water",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Smack",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Starmie",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 75,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Wave Splash",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 0,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Starmie ex",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 76,
+    "Details": {
+      "Type": "water",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Hydro Splash",
+          "EnergyCost": [
+            "Water",
+            "Water"
+          ],
+          "MinDamage": 90,
+          "MaxDamage": 90,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 0,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Magikarp",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 77,
+    "Details": {
+      "Type": "water",
+      "HP": 30,
+      "Attacks": [
+        {
+          "Name": "Splash",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gyarados",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 78,
+    "Details": {
+      "Type": "water",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Hyper Beam",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": "Discard a random Energy from your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Lapras",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 79,
+    "Details": {
+      "Type": "water",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Hydro Pump",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 80,
+          "AdditionalText": "If this Pokémon has at least 3 extra Water Energy attached, this attack does 60 more damage"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Vaporeon",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 80,
+    "Details": {
+      "Type": "water",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Bubble Drain",
+          "EnergyCost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": "Heal 30 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Omanyte",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 81,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Water Gun",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Omastar",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 82,
+    "Details": {
+      "Type": "water",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Ancient Whirlpool",
+          "EnergyCost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": "During your opponent's next turn, the Defending Pokémon acn't attack."
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Articuno",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 83,
+    "Details": {
+      "Type": "water",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Ice Beam",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Articuno ex",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 84,
+    "Details": {
+      "Type": "water",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Ice Wing",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        },
+        {
+          "Name": "Blizzard",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "This attack does 10 damage to each of your opponent's Benched Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ducklett",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 85,
+    "Details": {
+      "Type": "water",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Flop",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Swanna",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 86,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Wing Attack",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Froakie",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 87,
+    "Details": {
+      "Type": "water",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Flop",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Frogadier",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 88,
+    "Details": {
+      "Type": "water",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Water Drip",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Greninja",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 89,
+    "Details": {
+      "Type": "water",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Mist Slash",
+          "EnergyCost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": [
+        {
+          "Name": "Water Shuriken",
+          "Description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Pyukumuku",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 90,
+    "Details": {
+      "Type": "water",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Rain Splash",
+          "EnergyCost": [
+            "Water"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Bruxish",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 91,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Second Strike",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 70,
+          "AdditionalText": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Snom",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 92,
+    "Details": {
+      "Type": "water",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Ram",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "metal",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Frosmoth",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 93,
+    "Details": {
+      "Type": "water",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Powder Snow",
+          "EnergyCost": [
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": "Your opponent's Active Pokémon is now Asleep"
+        }
+      ],
+      "Weakness": "metal",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pikachu",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 94,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gnaw",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Raichu",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 95,
+    "Details": {
+      "Type": "electric",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Thunderbolt",
+          "EnergyCost": [
+            "Electric",
+            "Electric",
+            "Electric"
+          ],
+          "MinDamage": 140,
+          "MaxDamage": 140,
+          "AdditionalText": "Discard all Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pikachu ex",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 96,
+    "Details": {
+      "Type": "electric",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Circle Circuit",
+          "EnergyCost": [
+            "Electric",
+            "Electric"
+          ],
+          "MaxDamage": 90,
+          "IsVariableDamage": true,
+          "AdditionalText": "This attack does 30 damage for each of your Benched Electric Pokémon"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Magnemite",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 97,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Lightning Ball",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Magneton",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 98,
+    "Details": {
+      "Type": "electric",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Spinning Attack",
+          "EnergyCost": [
+            "Electric",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": [
+        {
+          "Name": "Volt Charge",
+          "Description": "Once during your turn, you may take a Electric Energy from your Energy Zone and attach it to this Pokémon"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Voltorb",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 99,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Electrode",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 100,
+    "Details": {
+      "Type": "electric",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Electro ball",
+          "EnergyCost": [
+            "Electric",
+            "Electric"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 0,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Electabuzz",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 101,
+    "Details": {
+      "Type": "electric",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Thunder Punch",
+          "EnergyCost": [
+            "Electric",
+            "Electric"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 80,
+          "CoinFlips": 1,
+          "AdditionalText": "Flip a coin. If heads, this attack does 40 more damage. If tails, this Pokémon also does 20 damage to itself"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Jolteon",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 102,
+    "Details": {
+      "Type": "electric",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Pin Missile",
+          "EnergyCost": [
+            "Electric",
+            "Colorless"
+          ],
+          "MaxDamage": 160,
+          "IsVariableDamage": true,
+          "CoinFlips": 4,
+          "AdditionalText": "Flip 4 coins.This attack does 40 damage for each heads"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Zapdos",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 103,
+    "Details": {
+      "Type": "electric",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Raging Thunder",
+          "EnergyCost": [
+            "Electric",
+            "Electric",
+            "Colorless"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": "This attack also does 30 damage to 1 of your Benched Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Zapdos ex",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 104,
+    "Details": {
+      "Type": "electric",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Peck",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        },
+        {
+          "Name": "Thunderinng Hurricane",
+          "EnergyCost": [
+            "Electric",
+            "Electric",
+            "Electric"
+          ],
+          "MaxDamage": 200,
+          "IsVariableDamage": true,
+          "CoinFlips": 4,
+          "AdditionalText": "Flip 4 coins. This attack does 50 damage for each heads"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Blitzle",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 105,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Zap Kick",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Zebstrika",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 106,
+    "Details": {
+      "Type": "electric",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Thunder Spear",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "AdditionalText": "This attack does 30 damage to 1 of your opponent's Pokémon"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Tynamo",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 107,
+    "Details": {
+      "Type": "electric",
+      "HP": 30,
+      "Attacks": [
+        {
+          "Name": "Tiny Charge",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Eelektrik",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 108,
+    "Details": {
+      "Type": "electric",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Head Bolt",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Eelektross",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 109,
+    "Details": {
+      "Type": "electric",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Thunder Fang",
+          "EnergyCost": [
+            "Electric",
+            "Electric",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Helioptile",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 110,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tail Whap",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Heliolisk",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 111,
+    "Details": {
+      "Type": "electric",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Quick Attack",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 80,
+          "CoinFlips": 1,
+          "AdditionalText": "Flip a coin. If heads, this attack does 40 more damage"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pincurchin",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 112,
+    "Details": {
+      "Type": "electric",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Thunder Shock",
+          "EnergyCost": [
+            "Electric",
+            "Electric"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Clefairy",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 113,
+    "Details": {
+      "Type": "psychic",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Slap",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "metal",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Clefable",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 114,
+    "Details": {
+      "Type": "psychic",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Magical Shot",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "metal",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Abra",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 115,
+    "Details": {
+      "Type": "psychic",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Teleport",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "AdditionalText": "Switch this Pokémon with 1 of your Benched Pokémon"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kadabra",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 116,
+    "Details": {
+      "Type": "psychic",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Super Psy Bolt",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Alakazam",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 117,
+    "Details": {
+      "Type": "psychic",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Psychic",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 90,
+          "AdditionalText": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Slowpoke",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 118,
+    "Details": {
+      "Type": "psychic",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Tail Whap",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Slowbro",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 119,
+    "Details": {
+      "Type": "psychic",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Super Psy Bolt",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gastly",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 120,
+    "Details": {
+      "Type": "psychic",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Suffocating Gas",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Haunter",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 121,
+    "Details": {
+      "Type": "psychic",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Will-O-Wisp",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gengar",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 122,
+    "Details": {
+      "Type": "psychic",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Bother",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": "Your opponent can't use any Supporter cards from their hand during their next turn"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gengar ex",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 123,
+    "Details": {
+      "Type": "psychic",
+      "HP": 170,
+      "Attacks": [
+        {
+          "Name": "Spooky Shot",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Psychic"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": [
+        {
+          "Name": "Shadowy Spellbind",
+          "Description": "As long as this Pokémon is in the Active Spot, your opponent can't use any Supporter cards from their hand"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Drowzee",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 124,
+    "Details": {
+      "Type": "psychic",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Mumble",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Hypno",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 125,
+    "Details": {
+      "Type": "psychic",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Psypunch",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": [
+        {
+          "Name": "Sleep Pendulum",
+          "Description": "Once during your turn, you may spli a coin. If heads, your opponent's Active Pokémon is now Asleep"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Mr. Mime",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 126,
+    "Details": {
+      "Type": "psychic",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Barrier Attack",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": "During your opponent's next turn, this Pokémon takes -20 damage from attacks"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Jynx",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 127,
+    "Details": {
+      "Type": "psychic",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Psychic",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 40,
+          "AdditionalText": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mewtwo",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 128,
+    "Details": {
+      "Type": "psychic",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Power Blast",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 120,
+          "MaxDamage": 120,
+          "AdditionalText": "Discard 2 Psychic Energy from this Pokémno"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mewtwo ex",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 129,
+    "Details": {
+      "Type": "psychic",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Psychic Sphere",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": ""
+        },
+        {
+          "Name": "Psydrive",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 150,
+          "MaxDamage": 150,
+          "AdditionalText": "Discard 2 Psychic Energy from this Pokémon"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ralts",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 130,
+    "Details": {
+      "Type": "psychic",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Ram",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kirlia",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 131,
+    "Details": {
+      "Type": "psychic",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Smack",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Gardevoir",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 132,
+    "Details": {
+      "Type": "psychic",
+      "HP": 110,
+      "Attacks": [
+        {
+          "Name": "Psyshot",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": [
+        {
+          "Name": "Psy Shadow",
+          "Description": "Once during your turn, you may take a Psychic Energy from your Energy Zone and attach it to the Psychic Pokémon in the Active Spot"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Woobat",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 133,
+    "Details": {
+      "Type": "psychic",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gnaw",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Swoobat",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 134,
+    "Details": {
+      "Type": "psychic",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Heart Stamp",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Golett",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 135,
+    "Details": {
+      "Type": "psychic",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Mega Punch",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Golurk",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 136,
+    "Details": {
+      "Type": "psychic",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Double Lariat",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MaxDamage": 200,
+          "IsVariableDamage": true,
+          "CoinFlips": 2,
+          "AdditionalText": "Flip 2 coins. This attack does 100 damage for each heads"
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Sandshrew",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 137,
+    "Details": {
+      "Type": "fighting",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Scratch",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Sandslash",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 138,
+    "Details": {
+      "Type": "fighting",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Slash",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Diglett",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 139,
+    "Details": {
+      "Type": "fighting",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Mud-Slap",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Dugtrio",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 140,
+    "Details": {
+      "Type": "fighting",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Dig",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effect sof attacks done to this Pokémon"
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mankey",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 141,
+    "Details": {
+      "Type": "fighting",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Low Kick",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Primeape",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 142,
+    "Details": {
+      "Type": "fighting",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Fight Back",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "AdditionalText": "If this Pokémon has damage on it, this attack does 60 more damage"
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Machop",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 143,
+    "Details": {
+      "Type": "fighting",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Knuckle Punch",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Machoke",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 144,
+    "Details": {
+      "Type": "fighting",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Strength",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Machamp",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 145,
+    "Details": {
+      "Type": "fighting",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Seismic Toss",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Machamp ex",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 146,
+    "Details": {
+      "Type": "fighting",
+      "HP": 180,
+      "Attacks": [
+        {
+          "Name": "Mega Punch",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "MinDamage": 120,
+          "MaxDamage": 120,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Geodude",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 147,
+    "Details": {
+      "Type": "fighting",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Graveler",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 148,
+    "Details": {
+      "Type": "fighting",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Rollout",
+          "EnergyCost": [
+            "Fighting",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Golem",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 149,
+    "Details": {
+      "Type": "fighting",
+      "HP": 160,
+      "Attacks": [
+        {
+          "Name": "Double-Edge",
+          "EnergyCost": [
+            "Fighting",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 150,
+          "MaxDamage": 150,
+          "AdditionalText": "This Pokémon also does 50 damage to itself"
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Onix",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 150,
+    "Details": {
+      "Type": "fighting",
+      "HP": 110,
+      "Attacks": [
+        {
+          "Name": "Land Crush",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Cubone",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 151,
+    "Details": {
+      "Type": "fighting",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Growl",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "AdditionalText": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage"
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Marowak",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 152,
+    "Details": {
+      "Type": "fighting",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Bone Beatdown",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Marowak ex",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 153,
+    "Details": {
+      "Type": "fighting",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Bonemerang",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "MaxDamage": 160,
+          "IsVariableDamage": true,
+          "CoinFlips": 2,
+          "AdditionalText": "Flip 2 coins. This attack does 80 damage for each heads"
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Hitmonlee",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 154,
+    "Details": {
+      "Type": "fighting",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Stretch Kick",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "AdditionalText": "This attack does 30 damage to 1 of your opponent's Pokémon"
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Hitmonchan",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 155,
+    "Details": {
+      "Type": "fighting",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Jab",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Rhyhorn",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 156,
+    "Details": {
+      "Type": "fighting",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Rhydon",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 157,
+    "Details": {
+      "Type": "fighting",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Horn Drill",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "MinDamage": 100,
+          "MaxDamage": 100,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kabuto",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 158,
+    "Details": {
+      "Type": "fighting",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Shell Attack",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kabutops",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 159,
+    "Details": {
+      "Type": "fighting",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Leech Life",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mienfoo",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 160,
+    "Details": {
+      "Type": "fighting",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Pound",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mienshao",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 161,
+    "Details": {
+      "Type": "fighting",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Spiral Kick",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Clobbopus",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 162,
+    "Details": {
+      "Type": "fighting",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Knuckle Punch",
+          "EnergyCost": [
+            "Fighting",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Grapploct",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 163,
+    "Details": {
+      "Type": "fighting",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Knock Back",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": "Switch out your oppoennt's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon)"
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ekans",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 164,
+    "Details": {
+      "Type": "darkness",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Bite",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Arbok",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 165,
+    "Details": {
+      "Type": "darkness",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Corner",
+          "EnergyCost": [
+            "Darkness",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": "During your opponent's next turn, the Defending Pokémon can't retreat"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Nidoran-F;",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 166,
+    "Details": {
+      "Type": "darkness",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Call for Family",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "AdditionalText": "Put 1 random Nidoran M from your deck onto your bench"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Nidorina",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 167,
+    "Details": {
+      "Type": "darkness",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Bite",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Nidoqueen",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 168,
+    "Details": {
+      "Type": "darkness",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Lovestrike",
+          "EnergyCost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 130,
+          "AdditionalText": "This attack does 50 more damage for each of your Benched Nidoking"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Nidoran-M;",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 169,
+    "Details": {
+      "Type": "darkness",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Peck",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Nidorino",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 170,
+    "Details": {
+      "Type": "darkness",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Horn Attack",
+          "EnergyCost": [
+            "Darkness",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Nidoking",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 171,
+    "Details": {
+      "Type": "darkness",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Poison Horn",
+          "EnergyCost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "MinDamage": 90,
+          "MaxDamage": 90,
+          "AdditionalText": "Your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Zubat",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 172,
+    "Details": {
+      "Type": "darkness",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Glide",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Golbat",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 173,
+    "Details": {
+      "Type": "darkness",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Wing Attack",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Grimer",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 174,
+    "Details": {
+      "Type": "darkness",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Poison Gas",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": "Your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Muk",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 175,
+    "Details": {
+      "Type": "darkness",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Venoshock",
+          "EnergyCost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 120,
+          "AdditionalText": "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Koffing",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 176,
+    "Details": {
+      "Type": "darkness",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Suffocating Gas",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Weezing",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 177,
+    "Details": {
+      "Type": "darkness",
+      "HP": 110,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Darkness"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": [
+        {
+          "Name": "Gas Leak",
+          "Description": "Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent's Active Pokémon Poisoned"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Mawile",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 178,
+    "Details": {
+      "Type": "metal",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Crunch",
+          "EnergyCost": [
+            "Metal"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pawniard",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 179,
+    "Details": {
+      "Type": "metal",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Pierce",
+          "EnergyCost": [
+            "Metal"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Bisharp",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 180,
+    "Details": {
+      "Type": "metal",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Metal Claw",
+          "EnergyCost": [
+            "Metal",
+            "Metal"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Meltan",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 181,
+    "Details": {
+      "Type": "metal",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Amass",
+          "EnergyCost": [
+            "Metal"
+          ],
+          "AdditionalText": "Take a Metal Energy from your Energy Zone and attach it to this Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Melmetal",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 182,
+    "Details": {
+      "Type": "metal",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Heavy Impact",
+          "EnergyCost": [
+            "Metal",
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "MinDamage": 120,
+          "MaxDamage": 120,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": [
+        {
+          "Name": "Hard Coat",
+          "Description": "This Pokémon takes -20 damage from attacks"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dratini",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 183,
+    "Details": {
+      "Type": "dragon",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Ram",
+          "EnergyCost": [
+            "Water",
+            "Electric"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "None",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Dragonair",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 184,
+    "Details": {
+      "Type": "dragon",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Tail Smack",
+          "EnergyCost": [
+            "Water",
+            "Electric",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "None",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Dragonite",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 185,
+    "Details": {
+      "Type": "dragon",
+      "HP": 160,
+      "Attacks": [
+        {
+          "Name": "Draco Meteor",
+          "EnergyCost": [
+            "Water",
+            "Electric",
+            "Colorless",
+            "Colorless"
+          ],
+          "AdditionalText": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 50 damage to it"
+        }
+      ],
+      "Weakness": "None",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pidgey",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 186,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gust",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pidgeotto",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 187,
+    "Details": {
+      "Type": "colorless",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Gust",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pidgeot",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 188,
+    "Details": {
+      "Type": "colorless",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Wing Attack",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": [
+        {
+          "Name": "Drive Off",
+          "Description": "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon)"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Rattata",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 189,
+    "Details": {
+      "Type": "colorless",
+      "HP": 40,
+      "Attacks": [
+        {
+          "Name": "Gnaw",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Raticate",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 190,
+    "Details": {
+      "Type": "colorless",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Bite",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Spearow",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 191,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Peck",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Fearow",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 192,
+    "Details": {
+      "Type": "colorless",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Drill Run",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Jigglypuff",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 193,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Pound",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Wigglytuff",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 194,
+    "Details": {
+      "Type": "colorless",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Hyper Voice",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Wigglytuff ex",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.333%",
+      "FifthSlot": "1.332%",
+      "Rarity": "4 Diamonds"
+    },
+    "Number": 195,
+    "Details": {
+      "Type": "colorless",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Sleepy Song",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Your opponent's Active Pokémon is now Asleep"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Meowth",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 196,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Pay Day",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": "Draw a card"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Persian",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 197,
+    "Details": {
+      "Type": "colorless",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Shadow Claw",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": "Flip a coin. If heads, discard a random card from your opponent's Active Pokémon"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Farfetch'd",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 198,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Leek Slap",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Doduo",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 199,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Peck",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Dodrio",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 200,
+    "Details": {
+      "Type": "colorless",
+      "HP": 80,
+      "Attacks": [
+        {
+          "Name": "Drill Peck",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 40,
+          "MaxDamage": 40,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 0,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Lickitung",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 201,
+    "Details": {
+      "Type": "colorless",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Continuous Lick",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MaxDamage": 180,
+          "IsVariableDamage": true,
+          "AdditionalText": "Flip a coin until you get tails. This attack does 60 damage for each heads"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Chansey",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 202,
+    "Details": {
+      "Type": "colorless",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Gentle Slap",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Kangaskhan",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 203,
+    "Details": {
+      "Type": "colorless",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Dizzy Punch",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MaxDamage": 60,
+          "IsVariableDamage": true,
+          "CoinFlips": 2,
+          "AdditionalText": "Flip 2 coins. This attack does 30 damage for each heads"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Tauros",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 204,
+    "Details": {
+      "Type": "colorless",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Horn Attack",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 50,
+          "MaxDamage": 50,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Ditto",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 205,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Copy Anything",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "AdditionalText": "Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Eevee",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 206,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Eevee",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 207,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Eevee",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 208,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Porygon",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 209,
+    "Details": {
+      "Type": "colorless",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Sharpen",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": [
+        {
+          "Name": "Data Scan",
+          "Description": "Once during your turn, you may look at the top card of your deck"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Aerodactyl",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 210,
+    "Details": {
+      "Type": "colorless",
+      "HP": 100,
+      "Attacks": [
+        {
+          "Name": "Primal Wingbeat",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "AdditionalText": "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Snorlax",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "0.357%",
+      "FifthSlot": "1.428%",
+      "Rarity": "3 Diamonds"
+    },
+    "Number": 211,
+    "Details": {
+      "Type": "colorless",
+      "HP": 150,
+      "Attacks": [
+        {
+          "Name": "Rollout",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Minccino",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 212,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Tail Smack",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Cinccino",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 213,
+    "Details": {
+      "Type": "colorless",
+      "HP": 90,
+      "Attacks": [
+        {
+          "Name": "Do the Wave",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MaxDamage": 90,
+          "IsVariableDamage": true,
+          "AdditionalText": "This attack does 30 damage for each of your Benched Pokémon"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Wooloo",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 214,
+    "Details": {
+      "Type": "colorless",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Tackle",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Dubwool",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 215,
+    "Details": {
+      "Type": "colorless",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Rolling Tackle",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Helix Fossil",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 216,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Play this card as if it were a 40 HP Basic Colorless Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat"
+    }
+  },
+  {
+    "Name": "Dome Fossil",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 217,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Play this card as if it were a 40 HP Basic Colorless Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat"
+    }
+  },
+  {
+    "Name": "Old Amber",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "BasicSlots": "2%",
+      "Rarity": "1 Diamond"
+    },
+    "Number": 218,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Play this card as if it were a 40 HP Basic Colorless Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat"
+    }
+  },
+  {
+    "Name": "Erika",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 219,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Heal 50 damage from your Grass Pokémon"
+    }
+  },
+  {
+    "Name": "Misty",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 220,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Choose 1 of your Water Pokémon and flip a coin until you get a tails. For each heads, take a Water Energy from your Energy Zone and attach it to that Pokémon"
+    }
+  },
+  {
+    "Name": "Blaine",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 221,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "During this turn, attacks used by your Ninetales, Rapidash or Magmar do +30 damage to your opponent's Active Pokémon"
+    }
+  },
+  {
+    "Name": "Koga",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 222,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Put your Muk or Weezing in the Active Spot into your hand"
+    }
+  },
+  {
+    "Name": "Giovanni",
+    "Set": "Genetic Apex",
+    "Pack": "Mewtwo",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 223,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon"
+    }
+  },
+  {
+    "Name": "Brock",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 224,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Trake a Fighting Energy from your Energy Zone and attach it to Golem or Onix"
+    }
+  },
+  {
+    "Name": "Sabrina",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 225,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Switch out your opponent's Active Pokémon to the Bench (Your opponent chooses the new Active Pokémon"
+    }
+  },
+  {
+    "Name": "Lt. Surge",
+    "Set": "Genetic Apex",
+    "Pack": "Pikachu",
+    "Rate": {
+      "FourthSlot": "2.571%",
+      "FifthSlot": "1.714%",
+      "Rarity": "2 Diamonds"
+    },
+    "Number": 226,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Move all Electric Energy from your Benched Pokémon to your Raichu, Electrode or Electabuzz in the Active Aspot."
+    }
+  },
+  {
+    "Name": "Potion",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 1,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Heal 20 damage from your Pokémon"
+    }
+  },
+  {
+    "Name": "X Speed",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 2,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "During this turn, the Retreat Cost of your Active Pokémon is 1 less"
+    }
+  },
+  {
+    "Name": "Hand Scope",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 3,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Your opponent reveals their hand"
+    }
+  },
+  {
+    "Name": "Pokedex",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 4,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Look at the top 3 cards of your deck"
+    }
+  },
+  {
+    "Name": "Poke Ball",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 5,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Put 1 random Basic Pokémon from your deck into your hand"
+    }
+  },
+  {
+    "Name": "Red Card",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 6,
+    "Details": {
+      "Type": "Trainer",
+      "Effect": "Your opponent shuffles their hand into their deck and draws 3 cards"
+    }
+  },
+  {
+    "Name": "Professor's Research",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 7,
+    "Details": {
+      "Type": "Supporter",
+      "Effect": "Draw 2 cards"
+    }
+  },
+  {
+    "Name": "Pikachu",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 9,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gnaw",
+          "EnergyCost": [
+            "Electric",
+            "Electric",
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mewtwo",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 10,
+    "Details": {
+      "Type": "psychic",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Power Blast",
+          "EnergyCost": [
+            "Psychic",
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 120,
+          "MaxDamage": 120,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Chansey",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 11,
+    "Details": {
+      "Type": "colorless",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Gentle Slap",
+          "EnergyCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Meowth",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 12,
+    "Details": {
+      "Type": "colorless",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Pay Day",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 10,
+          "MaxDamage": 10,
+          "AdditionalText": "Draw a card"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Butterfree",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 13,
+    "Details": {
+      "Type": "grass",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Gust",
+          "EnergyCost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": [
+        {
+          "Name": "Powder Heal",
+          "Description": "Once during your turn, you may heal 20 damage from each of your Pokémon"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Lapras ex",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 14,
+    "Details": {
+      "Type": "water",
+      "HP": 140,
+      "Attacks": [
+        {
+          "Name": "Bubble Drain",
+          "EnergyCost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Heal 20 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Pikachu",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 15,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Gnaw",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Clefairy",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 16,
+    "Details": {
+      "Type": "psychic",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Slap",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "metal",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Mankey",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 17,
+    "Details": {
+      "Type": "fighting",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Reckless Charge",
+          "EnergyCost": [
+            "Fighting"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": "This Pokémon also does 10 damage to itself"
+        }
+      ],
+      "Weakness": "psychic",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Venusaur",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 18,
+    "Details": {
+      "Type": "grass",
+      "HP": 160,
+      "Attacks": [
+        {
+          "Name": "Mega Drain",
+          "EnergyCost": [
+            "Grass",
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 80,
+          "MaxDamage": 80,
+          "AdditionalText": "Heal 30 damage from this Pokémon"
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 3,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Greninja",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 19,
+    "Details": {
+      "Type": "water",
+      "HP": 120,
+      "Attacks": [
+        {
+          "Name": "Mist Slash",
+          "EnergyCost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "electric",
+      "RetreatCost": 1,
+      "Abilities": [
+        {
+          "Name": "Water Shuriken",
+          "Description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Haunter",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 20,
+    "Details": {
+      "Type": "psychic",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Will-O-Wisp",
+          "EnergyCost": [
+            "Psychic"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Onix",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 21,
+    "Details": {
+      "Type": "fighting",
+      "HP": 110,
+      "Attacks": [
+        {
+          "Name": "Land Crush",
+          "EnergyCost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "MinDamage": 70,
+          "MaxDamage": 70,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "grass",
+      "RetreatCost": 4,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Jigglypuff",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 22,
+    "Details": {
+      "Type": "colorless",
+      "HP": 50,
+      "Attacks": [
+        {
+          "Name": "Sing",
+          "EnergyCost": [
+            "Colorless"
+          ],
+          "MinDamage": 30,
+          "MaxDamage": 30,
+          "AdditionalText": "Your opponent's Active Pokémon is now Asleep"
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Bulbasaur",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 23,
+    "Details": {
+      "Type": "grass",
+      "HP": 70,
+      "Attacks": [
+        {
+          "Name": "Vine Whip",
+          "EnergyCost": [
+            "Grass",
+            "Colorless"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fire",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  },
+  {
+    "Name": "Magnemite",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 24,
+    "Details": {
+      "Type": "electric",
+      "HP": 60,
+      "Attacks": [
+        {
+          "Name": "Lightning Ball",
+          "EnergyCost": [
+            "Electric"
+          ],
+          "MinDamage": 20,
+          "MaxDamage": 20,
+          "AdditionalText": ""
+        }
+      ],
+      "Weakness": "fighting",
+      "RetreatCost": 1,
+      "Abilities": []
+    }
+  }
+]
