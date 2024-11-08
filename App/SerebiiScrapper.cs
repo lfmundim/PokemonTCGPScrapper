@@ -1,6 +1,3 @@
-using System.Text.Encodings.Web;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using PokemonTCGPocketScrapper;
@@ -8,25 +5,16 @@ using PokemonTCGPocketScrapper.Models;
 
 namespace PokemonTCGPScrapper
 {
-    public static class SerebiiScrapper
+    internal static class SerebiiScrapper
     {
-        private static readonly JsonSerializerOptions _jsonSerializerOptions = new()
-        {
-            WriteIndented = true,
-            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
-            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingDefault
-        };
-
-        public static async Task RunAsync(IEnumerable<Collection> collections)
+        internal static async Task<List<Card>> RunAsync(IEnumerable<Collection> collections, HttpClient httpClient)
         {
             List<Card> cards = [];
             List<string> nonPokemonTypes = ["Supporter", "Trainer"];
 
-            using HttpClient httpClient = new();
-
             foreach (var collection in collections)
             {
-                for (int i = 1; i <= collection.UniqueCardCount; i++)
+                for (int i = 1; i <= collection.CardCount; i++)
                 {
                     string cardNumber = i.ToString("D3");
                     string url = $"https://www.serebii.net/tcgpocket/{collection.Name}/{cardNumber}.shtml";
@@ -69,9 +57,7 @@ namespace PokemonTCGPScrapper
                 }
             }
 
-            string json = JsonSerializer.Serialize(cards, _jsonSerializerOptions);
-            await File.WriteAllTextAsync("cards.json", json);
-            Console.WriteLine("Data extraction complete. Output saved to cards.json.");
+            return cards;
         }
 
         private static string ExtractName(HtmlDocument doc, bool isPokemon)
@@ -167,7 +153,7 @@ namespace PokemonTCGPScrapper
 
                         // Check for variable damage (e.g., "50x", "60+")
                         string damageText = damageNode.InnerText.Trim();
-                        attack.AdditionalText = additionalTextNode != null ? ExtractTextWithImages(additionalTextNode) : "";
+                        attack.AdditionalText = additionalTextNode != null ? ExtractTextWithImages(additionalTextNode) : null;
 
                         if (damageText.EndsWith("x"))
                         {
@@ -249,7 +235,7 @@ namespace PokemonTCGPScrapper
         }
 
         // Helper method to extract additional text with image alt attributes
-        private static string ExtractTextWithImages(HtmlNode node)
+        private static string? ExtractTextWithImages(HtmlNode node)
         {
             string result = "";
 
@@ -273,7 +259,9 @@ namespace PokemonTCGPScrapper
                 }
             }
 
-            return result.Trim();
+            result = result.Trim();
+
+            return string.IsNullOrWhiteSpace(result) ? null : result;
         }
 
         private static List<Ability> ExtractAbilities(HtmlDocument doc)
