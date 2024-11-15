@@ -6,9 +6,9 @@ namespace PokemonTCGPocketScrapper.Tests
 {
     public static class SerebiiScrapperTestHelper
     {
-        public static HttpClient GetBulbasaurHttpClient()
+        public static HttpClient GetHttpClient(string sample)
         {
-            string filePath = Path.Combine(AppContext.BaseDirectory, "Samples", "SerebiiBulbasaur.html");
+            string filePath = Path.Combine(AppContext.BaseDirectory, "Samples", sample);
 
             return CreateMockHttpClient(File.ReadAllText(filePath));
         }
