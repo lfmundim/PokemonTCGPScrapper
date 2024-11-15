@@ -12,6 +12,8 @@ namespace PokemonTCGPocketScrapper.Tests
             Name = "Test",
         };
 
+        private static readonly SerebiiScrapper scrapper = new ();
+
         [Fact]
         public async Task Scrapping_RegularPokemon_Should_GetExpectedValues()
         {
@@ -19,7 +21,7 @@ namespace PokemonTCGPocketScrapper.Tests
             using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiBulbasaur.html");
 
             // Act
-            var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
+            var cards = await scrapper.RunAsync([Collection], httpClient);
 
             // Assert
             cards.Should().HaveCount(1);
@@ -52,7 +54,7 @@ namespace PokemonTCGPocketScrapper.Tests
             using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiVenusaurEx.html");
 
             // Act
-            var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
+            var cards = await scrapper.RunAsync([Collection], httpClient);
 
             // Assert
             cards.Should().HaveCount(1);
@@ -90,7 +92,7 @@ namespace PokemonTCGPocketScrapper.Tests
             using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiButterfree.html");
 
             // Act
-            var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
+            var cards = await scrapper.RunAsync([Collection], httpClient);
 
             // Assert
             cards.Should().HaveCount(1);
@@ -125,7 +127,7 @@ namespace PokemonTCGPocketScrapper.Tests
             using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiHelixFossil.html");
 
             // Act
-            var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
+            var cards = await scrapper.RunAsync([Collection], httpClient);
 
             // Assert
             cards.Should().HaveCount(1);
@@ -153,7 +155,7 @@ namespace PokemonTCGPocketScrapper.Tests
             using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiPotion.html");
 
             // Act
-            var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
+            var cards = await scrapper.RunAsync([Collection], httpClient);
 
             // Assert
             cards.Should().HaveCount(1);

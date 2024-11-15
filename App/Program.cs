@@ -15,8 +15,17 @@ namespace PokemonTCGPocketScrapper
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingDefault
         };
 
-        public static async Task Main()
+        public static async Task Main(string[] args)
         {
+            // Check for the argument passed to the program
+            if (args.Length == 0)
+            {
+                Console.WriteLine("Usage: dotnet run <scrapperName>");
+                Console.WriteLine("Supported scrappers: serebii");
+                return;
+            }
+
+            string scrapperName = args[0].ToLowerInvariant();
             var builder = new ConfigurationBuilder()
                 .SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
@@ -26,9 +35,24 @@ namespace PokemonTCGPocketScrapper
 
             using HttpClient httpClient = new();
 
-            var cards = await SerebiiScrapper.RunAsync(appsettings!.Collections, httpClient);
+            BaseScrapper scrapper;
+
+            // Choose scrapper based on the provided argument
+            switch (scrapperName)
+            {
+                case "serebii":
+                    scrapper = new SerebiiScrapper();
+                    break;
+
+                default:
+                    Console.WriteLine($"Unknown scrapper: {scrapperName}");
+                    return;
+            }
+
+            var cards = await scrapper.RunAsync(appsettings!.Collections, httpClient);
 
             string json = JsonSerializer.Serialize(cards, _jsonSerializerOptions);
+            
             await File.WriteAllTextAsync("cards.json", json);
             Console.WriteLine("Data extraction complete. Output saved to cards.json.");
         }

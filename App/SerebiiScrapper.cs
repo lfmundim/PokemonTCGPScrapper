@@ -1,340 +1,357 @@
+using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
-using PokemonTCGPocketScrapper;
 using PokemonTCGPocketScrapper.Models;
 
 namespace PokemonTCGPScrapper
 {
-    internal static class SerebiiScrapper
+    internal class SerebiiScrapper : BaseScrapper
     {
-        internal static async Task<List<Card>> RunAsync(IEnumerable<Collection> collections, HttpClient httpClient)
+        /// <inheritdoc/>
+        protected override string ExtractName(HtmlDocument doc, bool isPokemon)
         {
-            List<Card> cards = [];
-            List<string> nonPokemonTypes = ["Supporter", "Trainer"];
+            // Determine the appropriate XPath based on whether it's a Pokémon or non-Pokémon card
+            string xpath = isPokemon
+                ? "//td[@class='cardinfo']/table/tr/td[@class='main']/b/font"
+                : "//tr/td/b";
 
-            foreach (var collection in collections)
+            // Locate the name node
+            HtmlNode? nameNode = doc.DocumentNode.SelectSingleNode(xpath);
+            if (nameNode == null)
             {
-                for (int i = 1; i <= collection.CardCount; i++)
-                {
-                    string cardNumber = i.ToString("D3");
-                    string url = $"https://www.serebii.net/tcgpocket/{collection.Name}/{cardNumber}.shtml";
-
-                    try
-                    {
-                        string html = await httpClient.GetStringAsync(url);
-                        var doc = new HtmlDocument();
-                        doc.LoadHtml(html);
-
-                        string type = ExtractType(doc);
-                        bool isPokemon = !nonPokemonTypes.Contains(type);
-
-                        var card = new Card
-                        {
-                            Name = ExtractName(doc, isPokemon),
-                            Set = ExtractSetName(doc),
-                            Pack = ExtractPack(doc),
-                            Rate = ExtractRate(doc),
-                            Number = ExtractNumber(doc),
-                            Details = new CardDetails
-                            {
-                                Type = type,
-                                HP = ExtractHP(doc), // Fossils are Items that have HP
-                                Attacks = isPokemon ? ExtractAttacks(doc) : null,
-                                Weakness = isPokemon ? ExtractWeakness(doc) : null,
-                                RetreatCost = isPokemon ? ExtractRetreatCost(doc) : null,
-                                Abilities = isPokemon ? ExtractAbilities(doc) : null,
-                                Effect = !isPokemon ? ExtractEffect(doc) : null
-                            }
-                        };
-
-                        cards.Add(card);
-                        Console.WriteLine($"Processed card #{i}: {card.Name}");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Error processing card #{i}: {ex.Message}");
-                    }
-                }
+                return string.Empty;
             }
 
-            return cards;
-        }
-
-        private static string ExtractName(HtmlDocument doc, bool isPokemon)
-        {
-            // Select the main name node within the <font> tag
-            HtmlNode? nameNode;
-
-            // Pokémon and Trainer/Supporter cards have different nodes for the name
-            if (isPokemon)
-                nameNode = doc.DocumentNode.SelectSingleNode("//td[@class='cardinfo']/table/tr/td[@class='main']/b/font");
-            else
-                nameNode = doc.DocumentNode.SelectSingleNode("//tr/td/b");
-
-            if (nameNode == null)
-                return string.Empty;
-
-            // Extract the main name text
+            // Extract and clean the main name text
             string name = nameNode.InnerText.Trim();
 
-            // Check for additional text in the <b> tag following the <font> tag, such as "ex"
-            var additionalTextNode = nameNode.ParentNode.SelectSingleNode("text()[normalize-space()]");
+            // Check for additional text (e.g., "ex") following the name node
+            var additionalTextNode = nameNode.ParentNode?.SelectSingleNode("text()[normalize-space()]");
             if (additionalTextNode != null)
             {
-                name += " " + additionalTextNode.InnerText.Trim();
+                name += $" {additionalTextNode.InnerText.Trim()}";
             }
 
-            // Nidoran shenanigans...
-            if (name.Contains("&#9792"))
-                name = name.Replace("&#9792", "-F");
-
-            if (name.Contains("&#9794"))
-                name = name.Replace("&#9794", "-M");
+            // Handle gender symbols for Nidoran
+            name = HandleNidoranGender(name);
 
             return name;
         }
 
-        private static string ExtractType(HtmlDocument doc)
+        private static string HandleNidoranGender(string name)
         {
-            var node = doc.DocumentNode.SelectSingleNode("//td[@class='cardinfo']//td[@align='center']/img/@src");
+            // Replace gender symbols with readable suffixes
+            return name.Replace("&#9792", "-F").Replace("&#9794", "-M");
+        }
 
-            // card is supporter
-            if (node is null)
+        /// <inheritdoc/>
+        protected override string ExtractType(HtmlDocument doc)
+        {
+            // Attempt to locate the primary type node
+            var typeNode = doc.DocumentNode.SelectSingleNode("//td[@class='cardinfo']//td[@align='center']/img");
+            if (typeNode != null)
             {
-                node = doc.DocumentNode.SelectSingleNode("//tr/td[2]/div/i");
-
-                return node.InnerText.Trim();
+                // Extract type from image's "src" attribute
+                var imageSlug = typeNode.GetAttributeValue("src", string.Empty);
+                return GetImageName(imageSlug);
             }
 
-            var imageSlug = node.GetAttributeValue("src", string.Empty);
+            // Fallback: Check if the card is a Supporter or Trainer
+            var textNode = doc.DocumentNode.SelectSingleNode("//tr/td[2]/div/i");
+            if (textNode != null)
+            {
+                return textNode.InnerText.Trim();
+            }
 
-            return GetImageName(imageSlug);
+            // Default to "Unknown" if no type is found
+            return "Unknown";
         }
 
-        private static int? ExtractHP(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override int? ExtractHP(HtmlDocument doc)
         {
-            var node = doc.DocumentNode.SelectSingleNode("//td[@class='cardinfo']//td[@align='right']/b");
-            var hpValue = node?.InnerText.Trim().Split().FirstOrDefault();
+            // Locate the node containing HP information
+            var hpNode = doc.DocumentNode.SelectSingleNode("//td[@class='cardinfo']//td[@align='right']/b");
 
-            return int.TryParse(hpValue, out var hp) ? hp : null;
+            if (hpNode == null)
+            {
+                // Return null if the node is not found
+                return null;
+            }
+
+            // Extract and clean the HP value
+            string? hpText = hpNode.InnerText.Trim().Split().FirstOrDefault();
+
+            // Attempt to parse the HP value
+            if (int.TryParse(hpText, out int hp))
+            {
+                return hp;
+            }
+
+            // Return null if parsing fails
+            return null;
         }
 
-        private static List<Attack> ExtractAttacks(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override List<Attack> ExtractAttacks(HtmlDocument doc)
         {
-            var attacks = new List<Attack>();
-
             // Locate all attack rows within the table
             var attackRows = doc.DocumentNode.SelectNodes("//td[@class='cardinfo']/table/tr");
+            if (attackRows == null) return new List<Attack>();
 
-            if (attackRows != null)
+            return attackRows
+                .Select(ParseAttackRow)
+                .Where(attack => attack != null)
+                .ToList()!;
+        }
+
+        private static Attack? ParseAttackRow(HtmlNode row)
+        {
+            // Locate nodes for energy, name, damage, and additional text
+            var energyNodes = row.SelectNodes(".//td[1]/img");
+            var nameNode = row.SelectSingleNode(".//td[2]/span[@class='main']/a/b");
+            var damageNode = row.SelectSingleNode(".//td[3]//b");
+            var additionalTextNode = row.SelectSingleNode(".//td[2]");
+
+            if (energyNodes == null || nameNode == null || damageNode == null) return null;
+
+            var attack = new Attack
             {
-                foreach (var row in attackRows)
+                Name = nameNode.InnerText.Trim(),
+                EnergyCost = ExtractEnergyCost(energyNodes),
+                AdditionalText = additionalTextNode != null ? ExtractTextWithImages(additionalTextNode) : null
+            };
+
+            ParseDamage(damageNode.InnerText.Trim(), attack);
+
+            return attack;
+        }
+
+        private static List<string> ExtractEnergyCost(HtmlNodeCollection energyNodes)
+        {
+            // Extract energy types from energy nodes
+            return energyNodes
+                .Select(node => node.GetAttributeValue("alt", "").Trim())
+                .ToList();
+        }
+
+        private static void ParseDamage(string damageText, Attack attack)
+        {
+            if (damageText.EndsWith("x"))
+            {
+                // Handle variable damage (e.g., "50x")
+                HandleVariableDamage(damageText, attack);
+            }
+            else if (damageText.EndsWith("+"))
+            {
+                // Handle conditional extra damage (e.g., "60+")
+                HandleConditionalDamage(damageText, attack);
+            }
+            else
+            {
+                // Handle fixed damage
+                attack.MinDamage = int.TryParse(damageText, out var dmg) ? dmg : 0;
+                attack.MaxDamage = attack.MinDamage;
+                attack.IsVariableDamage = false;
+            }
+        }
+
+        private static void HandleVariableDamage(string damageText, Attack attack)
+        {
+            // Extract multiplier (e.g., "50x")
+            if (!int.TryParse(damageText.TrimEnd('x'), out var multiplier)) return;
+
+            attack.MinDamage = 0;
+            attack.IsVariableDamage = true;
+
+            // Extract coin flips or default multiplier
+            var coinFlipMatch = Regex.Match(attack.AdditionalText ?? "", @"Flip (\d+) coins");
+            if (coinFlipMatch.Success && int.TryParse(coinFlipMatch.Groups[1].Value, out int numFlips))
+            {
+                attack.MaxDamage = multiplier * numFlips;
+                attack.CoinFlips = numFlips;
+            }
+            else
+            {
+                attack.MaxDamage = multiplier * 3; // Default to 3 coin flips if unspecified
+            }
+        }
+
+        private static void HandleConditionalDamage(string damageText, Attack attack)
+        {
+            // Extract base damage (e.g., "60+")
+            if (!int.TryParse(damageText.TrimEnd('+'), out var baseDamage)) return;
+
+            attack.MinDamage = baseDamage;
+            attack.MaxDamage = baseDamage;
+
+            // Extract additional damage from the description
+            var extraDamageMatch = Regex.Match(attack.AdditionalText ?? "", @"(\d+) more damage");
+            if (extraDamageMatch.Success && int.TryParse(extraDamageMatch.Groups[1].Value, out int extraDamage))
+            {
+                attack.MaxDamage = baseDamage + extraDamage;
+
+                // Check for coin flip condition
+                if (attack.AdditionalText?.Contains("Flip a coin. If heads") == true)
                 {
-                    // Check if this row contains attack data by checking if it has an image and bold text
-                    var energyNodes = row.SelectNodes(".//td[1]/img");
-                    var nameNode = row.SelectSingleNode(".//td[2]/span[@class='main']/a/b");
-                    var damageNode = row.SelectSingleNode(".//td[3]//b");
-                    var additionalTextNode = row.SelectSingleNode(".//td[2]");
-
-                    if (energyNodes != null && nameNode != null && damageNode != null)
-                    {
-                        // Create a new Attack object for this row
-                        var attack = new Attack
-                        {
-                            Name = nameNode.InnerText.Trim()
-                        };
-
-                        // Extract energy types
-                        foreach (var energyNode in energyNodes)
-                        {
-                            var energyType = energyNode.GetAttributeValue("alt", "").Trim();
-                            attack.EnergyCost.Add(energyType);
-                        }
-
-                        // Check for variable damage (e.g., "50x", "60+")
-                        string damageText = damageNode.InnerText.Trim();
-                        attack.AdditionalText = additionalTextNode != null ? ExtractTextWithImages(additionalTextNode) : null;
-
-                        if (damageText.EndsWith("x"))
-                        {
-                            // Handle variable damage based on benched Pokémon or coin flips
-                            int multiplier = int.Parse(damageText.TrimEnd('x'));
-                            var coinFlipMatch = Regex.Match(attack.AdditionalText, @"Flip (\d+) coins");
-                            if (coinFlipMatch.Success && int.TryParse(coinFlipMatch.Groups[1].Value, out int numFlips))
-                            {
-                                attack.MinDamage = 0;
-                                attack.MaxDamage = multiplier * numFlips;
-                                attack.CoinFlips = numFlips;
-                                attack.IsVariableDamage = true;
-                            }
-                            else
-                            {
-                                attack.MinDamage = 0;
-                                attack.MaxDamage = multiplier * 3;
-                                attack.IsVariableDamage = true;
-                            }
-                        }
-                        else if (damageText.EndsWith("+"))
-                        {
-                            // Handle conditional extra damage (e.g., "60+")
-                            int baseDamage = int.Parse(damageText.TrimEnd('+'));
-                            attack.MinDamage = baseDamage;
-                            attack.MaxDamage = baseDamage;
-
-                            // Check additional text for conditional extra damage
-                            var extraDamageMatch = Regex.Match(attack.AdditionalText, @"(\d+) more damage");
-                            if (extraDamageMatch.Success && int.TryParse(extraDamageMatch.Groups[1].Value, out int extraDamage))
-                            {
-                                attack.MaxDamage = baseDamage + extraDamage;
-
-                                // Set specific conditions based on additional text
-                                if (attack.AdditionalText.Contains("Flip a coin. If heads"))
-                                {
-                                    attack.CoinFlips = 1;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            // Fixed damage
-                            attack.MinDamage = int.TryParse(damageText, out var dmg) ? dmg : 0;
-                            attack.MaxDamage = attack.MinDamage;
-                            attack.IsVariableDamage = false;
-                        }
-
-                        attacks.Add(attack);
-                    }
+                    attack.CoinFlips = 1;
                 }
             }
-
-            return attacks;
         }
 
-        private static string ExtractWeakness(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override string ExtractWeakness(HtmlDocument doc)
         {
+            // Find the weakness image node
             var weaknessNode = doc.DocumentNode.SelectSingleNode("//td[b[contains(text(), 'Weakness')]]/following-sibling::td[1]/img");
-            if (weaknessNode is null)
+            if (weaknessNode == null)
+            {
                 return "None";
+            }
 
-            string weaknessType = GetImageName(weaknessNode!.GetAttributeValue("src", ""));
-
-            return weaknessType;
+            // Extract and return the weakness type from the image's "src" attribute
+            return GetImageName(weaknessNode.GetAttributeValue("src", ""));
         }
 
-        private static int ExtractRetreatCost(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override int? ExtractRetreatCost(HtmlDocument doc)
         {
+            // Locate all retreat cost image nodes
             var retreatCostNodes = doc.DocumentNode.SelectNodes("//td[b[contains(text(), 'Retreat Cost')]]/following-sibling::td[1]/img");
 
-            // Count the number of Colorless energy icons
+            // Return the count of nodes or 0 if none are found
             return retreatCostNodes?.Count ?? 0;
         }
 
         private static string GetImageName(string slug)
         {
+            // Extract the image name by splitting the URL and removing the file extension
             return slug.Split('/').Last().Replace(".png", "") ?? "None";
         }
 
         // Helper method to extract additional text with image alt attributes
         private static string? ExtractTextWithImages(HtmlNode node)
         {
-            string result = "";
+            var builder = new StringBuilder();
 
             foreach (var childNode in node.ChildNodes)
             {
-                if (childNode.Name == "#text") // Plain text node
+                switch (childNode.Name)
                 {
-                    result += HtmlEntity.DeEntitize(childNode.InnerText.Trim());
-                }
-                else if (childNode.Name == "img") // Image node
-                {
-                    string altText = childNode.GetAttributeValue("alt", "");
-                    if (!string.IsNullOrEmpty(altText))
-                    {
-                        result += $" {altText} ";
-                    }
-                }
-                else if (childNode.Name == "br") // Line break
-                {
-                    result += "\n";
+                    case "#text":
+                        // Plain text node
+                        builder.Append(HtmlEntity.DeEntitize(childNode.InnerText.Trim()));
+                        break;
+
+                    case "img":
+                        // Image node
+                        string altText = childNode.GetAttributeValue("alt", "");
+                        if (!string.IsNullOrWhiteSpace(altText))
+                        {
+                            builder.Append($" {altText} ");
+                        }
+                        break;
+
+                    case "br":
+                        // Line break
+                        builder.Append("\n");
+                        break;
                 }
             }
 
-            result = result.Trim();
+            string result = builder.ToString().Trim();
 
             return string.IsNullOrWhiteSpace(result) ? null : result;
         }
 
-        private static List<Ability> ExtractAbilities(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override List<Ability> ExtractAbilities(HtmlDocument doc)
         {
             var abilities = new List<Ability>();
 
             // Locate the rows containing abilities by finding the tr element with the ability icon
             var abilityRows = doc.DocumentNode.SelectNodes("//tr[td/font/img[@alt='Ability']]");
+            if (abilityRows == null) return abilities;
 
-            if (abilityRows != null)
+            foreach (var row in abilityRows)
             {
-                foreach (var row in abilityRows)
-                {
-                    // Extract the ability name
-                    var nameNode = row.SelectSingleNode(".//td[2]//span[@class='main']/b");
-                    string name = nameNode?.InnerText.Trim() ?? "Unknown";
+                // Extract the ability name
+                string name = ExtractAbilityName(row);
 
-                    // Extract the description by collecting remaining text in the td
-                    var descriptionNode = row.SelectSingleNode(".//td[2]");
-                    string description = descriptionNode != null ? ExtractTextWithImages(descriptionNode) : "";
+                // Extract the description
+                string description = ExtractAbilityDescription(row);
 
-                    // Add the ability to the list
-                    abilities.Add(new Ability { Name = name, Description = description });
-                }
+                // Add the ability to the list
+                abilities.Add(new Ability { Name = name, Description = description });
             }
 
             return abilities;
         }
 
-        private static string ExtractPack(HtmlDocument doc)
+        private static string ExtractAbilityName(HtmlNode row)
         {
-            // Example XPath; adjust based on observed structure in HTML
-            var packNode = doc.DocumentNode.SelectSingleNode("//td[@class='fooevo']");
+            // Extract the ability name node and clean the text
+            var nameNode = row.SelectSingleNode(".//td[2]//span[@class='main']/b");
+            return nameNode?.InnerText.Trim() ?? "Unknown";
+        }
 
+        private static string ExtractAbilityDescription(HtmlNode row)
+        {
+            // Extract and format the ability description
+            var descriptionNode = row.SelectSingleNode(".//td[2]");
+            return descriptionNode != null ? ExtractTextWithImages(descriptionNode) ?? "No description" : "No description";
+        }
+
+        /// <inheritdoc/>
+        protected override string ExtractPack(HtmlDocument doc)
+        {
+            // Define the XPath for the pack node
+            const string packXPath = "//td[@class='fooevo']";
+
+            // Locate the pack node
+            var packNode = doc.DocumentNode.SelectSingleNode(packXPath);
+
+            // Return the cleaned text or a default value if the node is not found
             return packNode?.InnerText.Trim() ?? "Unknown";
         }
 
-        private static string ExtractSetName(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override string ExtractSetName(HtmlDocument doc)
         {
-            // Select the title element in the head
-            var titleNode = doc.DocumentNode.SelectSingleNode("//head/title");
+            // XPath to locate the title node in the head section
+            const string titleXPath = "//head/title";
 
-            if (titleNode != null)
+            // Locate the title node
+            var titleNode = doc.DocumentNode.SelectSingleNode(titleXPath);
+
+            if (titleNode == null)
             {
-                // Extract the text and split by the dash "-"
-                var titleText = titleNode.InnerText.Trim();
-                var segments = titleText.Split('-');
-
-                // The first segment is the set name
-                return segments[0].Trim();
+                // Return a default value if the title node is not found
+                return "Unknown";
             }
 
-            return "Unknown";
+            // Extract the text and split it by the dash ("-")
+            string titleText = titleNode.InnerText.Trim();
+            var segments = titleText.Split('-');
+
+            // Return the first segment as the set name or a default value if empty
+            return segments.Length > 0 ? segments[0].Trim() : "Unknown";
         }
 
-        private static Rate ExtractRate(HtmlDocument doc)
+        /// <inheritdoc/>
+        protected override Rate ExtractRate(HtmlDocument doc)
         {
-            Rate rate;
-
-            // Extract rarity
-            var rarityNode = doc.DocumentNode.SelectSingleNode("//td[@class='small' and @align='right']/img");
-            string raritySrc = rarityNode.GetAttributeValue("src", "");
-
-            rate = new Rate
+            // Initialize the rate object
+            var rate = new Rate
             {
-                Rarity = ParseRarityFromSrc(raritySrc)
+                Rarity = ExtractRarity(doc)
             };
 
-            // Extract pull rate by slot
+            // Extract pull rates for each slot
             var rateNode = doc.DocumentNode.SelectSingleNode("//td[@class='cen' and b[contains(text(), 'Rate')]]");
             if (rateNode != null)
             {
-                var rateText = rateNode.InnerText;
+                string rateText = rateNode.InnerText;
                 rate.BasicSlots = ExtractSlotRate(rateText, "1st - 3rd Slot:");
                 rate.FourthSlot = ExtractSlotRate(rateText, "4th Slot:");
                 rate.FifthSlot = ExtractSlotRate(rateText, "5th Slot:");
@@ -343,62 +360,91 @@ namespace PokemonTCGPScrapper
             return rate;
         }
 
-        private static int ExtractNumber(HtmlDocument doc)
+        private static string ExtractRarity(HtmlDocument doc)
         {
-            var text = doc.DocumentNode.SelectSingleNode("//td/font[@size='4']/b").InnerHtml;
-            text = text.Replace("&nbsp;","");
-
-            var tokens = text.Split('/');
-
-            return int.Parse(tokens[0]);
-        }
-
-        // Helper method to extract slot rate from rate text
-        private static string? ExtractSlotRate(string rateText, string slotLabel)
-        {
-            var match = Regex.Match(rateText, $@"{slotLabel}\s*(\d+(\.\d+)?)%");
-            if (match.Success)
+            // Locate the rarity image node
+            var rarityNode = doc.DocumentNode.SelectSingleNode("//td[@class='small' and @align='right']/img");
+            if (rarityNode != null)
             {
-                return match.Groups[1].Value + '%';
+                string raritySrc = rarityNode.GetAttributeValue("src", "");
+                return ParseRarityFromSrc(raritySrc);
             }
-            return null;
-        }
 
-        // Helper method to parse rarity from image src
-        private static string ParseRarityFromSrc(string src)
-        {
-            if (src.Contains("diamond"))
-            {
-                return src.Contains("diamond1") ? "1 Diamond" :
-                    src.Contains("diamond2") ? "2 Diamonds" :
-                    src.Contains("diamond3") ? "3 Diamonds" :
-                    src.Contains("diamond4") ? "4 Diamonds" : "Unknown";
-            }
-            else if (src.Contains("star"))
-            {
-                return src.Contains("star1") ? "1 Star" :
-                    src.Contains("star2") ? "2 Stars" :
-                    src.Contains("star3") ? "3 Stars" : "Unknown";
-            }
-            else if (src.Contains("crown"))
-            {
-                return "Crown";
-            }
             return "Unknown";
         }
 
-        private static string ExtractEffect(HtmlDocument doc)
+        private static string? ExtractSlotRate(string rateText, string slotLabel)
         {
-            // Locate the <td> that contains the effect text for a Supporter card
-            var effectNode = doc.DocumentNode.SelectSingleNode("//td[@colspan='3' and @align='left']/p");
+            // Use a regex to extract the rate percentage for a given slot
+            var match = Regex.Match(rateText, $@"{slotLabel}\s*(\d+(\.\d+)?)%");
+            return match.Success ? $"{match.Groups[1].Value}%" : null;
+        }
 
-            if (effectNode != null)
+        /// <inheritdoc/>
+        protected override int ExtractNumber(HtmlDocument doc)
+        {
+            // Locate the card number node and clean the text
+            var numberNode = doc.DocumentNode.SelectSingleNode("//td/font[@size='4']/b");
+            if (numberNode == null)
             {
-                // Extract and format the text, including handling images and HTML entities
-                return ExtractTextWithImages(effectNode);
+                throw new InvalidOperationException("Card number not found.");
             }
 
-            return "No effect found";
+            string text = numberNode.InnerHtml.Replace("&nbsp;", "").Trim();
+            string[] tokens = text.Split('/');
+
+            // Parse the card number (e.g., "123" from "123/456")
+            if (int.TryParse(tokens[0], out int cardNumber))
+            {
+                return cardNumber;
+            }
+
+            throw new FormatException("Invalid card number format.");
+        }
+
+        private static string ParseRarityFromSrc(string src)
+        {
+            // Check for rarity symbols in the image source
+            if (src.Contains("diamond"))
+            {
+                return src.Contains("diamond1") ? "1 Diamond" :
+                       src.Contains("diamond2") ? "2 Diamonds" :
+                       src.Contains("diamond3") ? "3 Diamonds" :
+                       src.Contains("diamond4") ? "4 Diamonds" : "Unknown";
+            }
+
+            if (src.Contains("star"))
+            {
+                return src.Contains("star1") ? "1 Star" :
+                       src.Contains("star2") ? "2 Stars" :
+                       src.Contains("star3") ? "3 Stars" : "Unknown";
+            }
+
+            if (src.Contains("crown"))
+            {
+                return "Crown";
+            }
+
+            return "Unknown";
+        }
+
+        /// <inheritdoc/>
+        protected override string ExtractEffect(HtmlDocument doc)
+        {
+            // Define the XPath for locating the effect node
+            const string effectXPath = "//td[@colspan='3' and @align='left']/p";
+
+            // Locate the effect node
+            var effectNode = doc.DocumentNode.SelectSingleNode(effectXPath);
+
+            if (effectNode == null)
+            {
+                // Return a default message if no effect is found
+                return "No effect found";
+            }
+
+            // Extract and format the effect text
+            return ExtractTextWithImages(effectNode) ?? "No effect found";
         }
     }
 }

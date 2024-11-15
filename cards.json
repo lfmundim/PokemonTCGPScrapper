@@ -6738,6 +6738,36 @@
     }
   },
   {
+    "Name": "Alakazam",
+    "Set": "Genetic Apex",
+    "Pack": "Charizard",
+    "Rate": {
+      "FourthSlot": "0.321%",
+      "FifthSlot": "1.286%",
+      "Rarity": "1 Star"
+    },
+    "Number": 236,
+    "Details": {
+      "Type": "psychic",
+      "HP": 130,
+      "Attacks": [
+        {
+          "Name": "Psychic",
+          "EnergyCost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "MinDamage": 60,
+          "MaxDamage": 60
+        }
+      ],
+      "Weakness": "darkness",
+      "RetreatCost": 2,
+      "Abilities": []
+    }
+  },
+  {
     "Name": "Slowpoke",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
@@ -7001,7 +7031,8 @@
       "RetreatCost": 1,
       "Abilities": [
         {
-          "Name": "Drive Off"
+          "Name": "Drive Off",
+          "Description": "No description"
         }
       ]
     }
@@ -8356,6 +8387,22 @@
     "Details": {
       "Type": "Supporter",
       "Effect": "Draw 2 cards"
+    }
+  },
+  {
+    "Name": "",
+    "Set": "Promo",
+    "Pack": "Unknown",
+    "Rate": {
+      "Rarity": "Unknown"
+    },
+    "Number": 8,
+    "Details": {
+      "Type": "Unknown",
+      "Attacks": [],
+      "Weakness": "None",
+      "RetreatCost": 0,
+      "Abilities": []
     }
   },
   {
