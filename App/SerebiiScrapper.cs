@@ -34,7 +34,7 @@ namespace PokemonTCGPScrapper
                             Set = ExtractSetName(doc),
                             Pack = ExtractPack(doc),
                             Rate = ExtractRate(doc),
-                            Number = i,
+                            Number = ExtractNumber(doc),
                             Details = new CardDetails
                             {
                                 Type = type,
@@ -341,6 +341,16 @@ namespace PokemonTCGPScrapper
             }
 
             return rate;
+        }
+
+        private static int ExtractNumber(HtmlDocument doc)
+        {
+            var text = doc.DocumentNode.SelectSingleNode("//td/font[@size='4']/b").InnerHtml;
+            text = text.Replace("&nbsp;","");
+
+            var tokens = text.Split('/');
+
+            return int.Parse(tokens[0]);
         }
 
         // Helper method to extract slot rate from rate text
