@@ -1,6 +1,7 @@
 [
   {
     "Name": "Bulbasaur",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -29,6 +30,8 @@
   },
   {
     "Name": "Ivysaur",
+    "Stage": "Stage 1",
+    "PreviousForm": "Bulbasaur",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -59,6 +62,8 @@
   },
   {
     "Name": "Venusaur",
+    "Stage": "Stage 2",
+    "PreviousForm": "Ivysaur",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -91,6 +96,8 @@
   },
   {
     "Name": "Venusaur ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Ivysaur",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -133,6 +140,7 @@
   },
   {
     "Name": "Caterpie",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -159,6 +167,8 @@
   },
   {
     "Name": "Metapod",
+    "Stage": "Stage 1",
+    "PreviousForm": "Caterpie",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -187,6 +197,8 @@
   },
   {
     "Name": "Butterfree",
+    "Stage": "Stage 2",
+    "PreviousForm": "Metapod",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -222,6 +234,7 @@
   },
   {
     "Name": "Weedle",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -249,6 +262,8 @@
   },
   {
     "Name": "Kakuna",
+    "Stage": "Stage 1",
+    "PreviousForm": "Weedle",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -276,6 +291,8 @@
   },
   {
     "Name": "Beedrill",
+    "Stage": "Stage 2",
+    "PreviousForm": "Kakuna",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -304,6 +321,7 @@
   },
   {
     "Name": "Oddish",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -331,6 +349,8 @@
   },
   {
     "Name": "Gloom",
+    "Stage": "Stage 1",
+    "PreviousForm": "Oddish",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -360,6 +380,8 @@
   },
   {
     "Name": "Vileplume",
+    "Stage": "Stage 2",
+    "PreviousForm": "Gloom",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -391,6 +413,7 @@
   },
   {
     "Name": "Paras",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -419,6 +442,8 @@
   },
   {
     "Name": "Parasect",
+    "Stage": "Stage 1",
+    "PreviousForm": "Paras",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -449,6 +474,7 @@
   },
   {
     "Name": "Venonat",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -476,6 +502,8 @@
   },
   {
     "Name": "Venomoth",
+    "Stage": "Stage 1",
+    "PreviousForm": "Venonat",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -505,6 +533,7 @@
   },
   {
     "Name": "Bellsprout",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -532,6 +561,8 @@
   },
   {
     "Name": "Weepinbell",
+    "Stage": "Stage 1",
+    "PreviousForm": "Bellsprout",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -561,6 +592,8 @@
   },
   {
     "Name": "Victreebel",
+    "Stage": "Stage 2",
+    "PreviousForm": "Weepinbell",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -595,6 +628,7 @@
   },
   {
     "Name": "Exeggcute",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -622,6 +656,8 @@
   },
   {
     "Name": "Exeggutor",
+    "Stage": "Stage 1",
+    "PreviousForm": "Exeggcute",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -652,6 +688,8 @@
   },
   {
     "Name": "Exeggutor ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Exeggcute",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -682,6 +720,7 @@
   },
   {
     "Name": "Tangela",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -711,6 +750,7 @@
   },
   {
     "Name": "Scyther",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -738,6 +778,7 @@
   },
   {
     "Name": "Pinsir",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -769,6 +810,7 @@
   },
   {
     "Name": "Cottonee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -796,6 +838,8 @@
   },
   {
     "Name": "Whimsicott",
+    "Stage": "Stage 1",
+    "PreviousForm": "Cottonee",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -824,6 +868,7 @@
   },
   {
     "Name": "Petilil",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -852,6 +897,8 @@
   },
   {
     "Name": "Lilligant",
+    "Stage": "Stage 1",
+    "PreviousForm": "Petilil",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -882,6 +929,7 @@
   },
   {
     "Name": "Skiddo",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -910,6 +958,8 @@
   },
   {
     "Name": "Gogoat",
+    "Stage": "Stage 1",
+    "PreviousForm": "Skiddo",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -939,6 +989,7 @@
   },
   {
     "Name": "Charmander",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -967,6 +1018,8 @@
   },
   {
     "Name": "Charmeleon",
+    "Stage": "Stage 1",
+    "PreviousForm": "Charmander",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -997,6 +1050,8 @@
   },
   {
     "Name": "Charizard",
+    "Stage": "Stage 2",
+    "PreviousForm": "Charmeleon",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1029,6 +1084,8 @@
   },
   {
     "Name": "Charizard ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Charmeleon",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1071,6 +1128,7 @@
   },
   {
     "Name": "Vulpix",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1097,6 +1155,8 @@
   },
   {
     "Name": "Ninetales",
+    "Stage": "Stage 1",
+    "PreviousForm": "Vulpix",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1127,6 +1187,7 @@
   },
   {
     "Name": "Growlithe",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1155,6 +1216,8 @@
   },
   {
     "Name": "Arcanine",
+    "Stage": "Stage 1",
+    "PreviousForm": "Growlithe",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1186,6 +1249,8 @@
   },
   {
     "Name": "Arcanine ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Growlithe",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1217,6 +1282,7 @@
   },
   {
     "Name": "Ponyta",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1244,6 +1310,8 @@
   },
   {
     "Name": "Rapidash",
+    "Stage": "Stage 1",
+    "PreviousForm": "Ponyta",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1272,6 +1340,7 @@
   },
   {
     "Name": "Magmar",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1300,6 +1369,8 @@
   },
   {
     "Name": "Flareon",
+    "Stage": "Stage 1",
+    "PreviousForm": "Eevee",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1331,6 +1402,7 @@
   },
   {
     "Name": "Moltres",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1362,6 +1434,7 @@
   },
   {
     "Name": "Moltres ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1399,6 +1472,7 @@
   },
   {
     "Name": "Heatmor",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1426,6 +1500,7 @@
   },
   {
     "Name": "Salandit",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1453,6 +1528,8 @@
   },
   {
     "Name": "Salazzle",
+    "Stage": "Stage 1",
+    "PreviousForm": "Salandit",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1482,6 +1559,7 @@
   },
   {
     "Name": "Sizzlipede",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1509,6 +1587,8 @@
   },
   {
     "Name": "Centiskorch",
+    "Stage": "Stage 1",
+    "PreviousForm": "Sizzlipede",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1541,6 +1621,7 @@
   },
   {
     "Name": "Squirtle",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1568,6 +1649,8 @@
   },
   {
     "Name": "Wartortle",
+    "Stage": "Stage 1",
+    "PreviousForm": "Squirtle",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1597,6 +1680,8 @@
   },
   {
     "Name": "Blastoise",
+    "Stage": "Stage 2",
+    "PreviousForm": "Wartortle",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1628,6 +1713,8 @@
   },
   {
     "Name": "Blastoise ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Wartortle",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1668,6 +1755,7 @@
   },
   {
     "Name": "Psyduck",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1696,6 +1784,8 @@
   },
   {
     "Name": "Golduck",
+    "Stage": "Stage 1",
+    "PreviousForm": "Psyduck",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1725,6 +1815,7 @@
   },
   {
     "Name": "Poliwag",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1752,6 +1843,8 @@
   },
   {
     "Name": "Poliwhirl",
+    "Stage": "Stage 1",
+    "PreviousForm": "Poliwag",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1781,6 +1874,8 @@
   },
   {
     "Name": "Poliwrath",
+    "Stage": "Stage 2",
+    "PreviousForm": "Poliwhirl",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -1816,6 +1911,7 @@
   },
   {
     "Name": "Tentacool",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1843,6 +1939,8 @@
   },
   {
     "Name": "Tentacruel",
+    "Stage": "Stage 1",
+    "PreviousForm": "Tentacool",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1873,6 +1971,7 @@
   },
   {
     "Name": "Seel",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1901,6 +2000,8 @@
   },
   {
     "Name": "Dewgong",
+    "Stage": "Stage 1",
+    "PreviousForm": "Seel",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -1931,6 +2032,7 @@
   },
   {
     "Name": "Shellder",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1958,6 +2060,8 @@
   },
   {
     "Name": "Cloyster",
+    "Stage": "Stage 1",
+    "PreviousForm": "Shellder",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -1993,6 +2097,7 @@
   },
   {
     "Name": "Krabby",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2021,6 +2126,8 @@
   },
   {
     "Name": "Kingler",
+    "Stage": "Stage 1",
+    "PreviousForm": "Krabby",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2052,6 +2159,7 @@
   },
   {
     "Name": "Horsea",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2079,6 +2187,8 @@
   },
   {
     "Name": "Seadra",
+    "Stage": "Stage 1",
+    "PreviousForm": "Horsea",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2108,6 +2218,7 @@
   },
   {
     "Name": "Goldeen",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2135,6 +2246,8 @@
   },
   {
     "Name": "Seaking",
+    "Stage": "Stage 1",
+    "PreviousForm": "Goldeen",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2163,6 +2276,7 @@
   },
   {
     "Name": "Staryu",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2190,6 +2304,8 @@
   },
   {
     "Name": "Starmie",
+    "Stage": "Stage 1",
+    "PreviousForm": "Staryu",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2218,6 +2334,8 @@
   },
   {
     "Name": "Starmie ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Staryu",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2247,6 +2365,7 @@
   },
   {
     "Name": "Magikarp",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2272,6 +2391,8 @@
   },
   {
     "Name": "Gyarados",
+    "Stage": "Stage 1",
+    "PreviousForm": "Magikarp",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2304,6 +2425,7 @@
   },
   {
     "Name": "Lapras",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2333,6 +2455,8 @@
   },
   {
     "Name": "Vaporeon",
+    "Stage": "Stage 1",
+    "PreviousForm": "Eevee",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2364,6 +2488,8 @@
   },
   {
     "Name": "Omanyte",
+    "Stage": "Stage 1",
+    "PreviousForm": "Helix Fossil",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2392,6 +2518,8 @@
   },
   {
     "Name": "Omastar",
+    "Stage": "Stage 2",
+    "PreviousForm": "Omanyte",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2423,6 +2551,7 @@
   },
   {
     "Name": "Articuno",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2454,6 +2583,7 @@
   },
   {
     "Name": "Articuno ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2494,6 +2624,7 @@
   },
   {
     "Name": "Ducklett",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2522,6 +2653,8 @@
   },
   {
     "Name": "Swanna",
+    "Stage": "Stage 1",
+    "PreviousForm": "Ducklett",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2552,6 +2685,7 @@
   },
   {
     "Name": "Froakie",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2579,6 +2713,8 @@
   },
   {
     "Name": "Frogadier",
+    "Stage": "Stage 1",
+    "PreviousForm": "Froakie",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2607,6 +2743,8 @@
   },
   {
     "Name": "Greninja",
+    "Stage": "Stage 2",
+    "PreviousForm": "Frogadier",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2642,6 +2780,7 @@
   },
   {
     "Name": "Pyukumuku",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -2669,6 +2808,7 @@
   },
   {
     "Name": "Bruxish",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2699,6 +2839,7 @@
   },
   {
     "Name": "Snom",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2726,6 +2867,8 @@
   },
   {
     "Name": "Frosmoth",
+    "Stage": "Stage 1",
+    "PreviousForm": "Snom",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -2756,6 +2899,7 @@
   },
   {
     "Name": "Pikachu",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2783,6 +2927,8 @@
   },
   {
     "Name": "Raichu",
+    "Stage": "Stage 1",
+    "PreviousForm": "Pikachu",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2814,6 +2960,7 @@
   },
   {
     "Name": "Pikachu ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2844,6 +2991,7 @@
   },
   {
     "Name": "Magnemite",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2871,6 +3019,8 @@
   },
   {
     "Name": "Magneton",
+    "Stage": "Stage 1",
+    "PreviousForm": "Magnemite",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2907,6 +3057,7 @@
   },
   {
     "Name": "Voltorb",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2934,6 +3085,8 @@
   },
   {
     "Name": "Electrode",
+    "Stage": "Stage 1",
+    "PreviousForm": "Voltorb",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2963,6 +3116,7 @@
   },
   {
     "Name": "Electabuzz",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -2993,6 +3147,8 @@
   },
   {
     "Name": "Jolteon",
+    "Stage": "Stage 1",
+    "PreviousForm": "Eevee",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3024,6 +3180,7 @@
   },
   {
     "Name": "Zapdos",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3055,6 +3212,7 @@
   },
   {
     "Name": "Zapdos ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3095,6 +3253,7 @@
   },
   {
     "Name": "Blitzle",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3122,6 +3281,8 @@
   },
   {
     "Name": "Zebstrika",
+    "Stage": "Stage 1",
+    "PreviousForm": "Blitzle",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3149,6 +3310,7 @@
   },
   {
     "Name": "Tynamo",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3176,6 +3338,8 @@
   },
   {
     "Name": "Eelektrik",
+    "Stage": "Stage 1",
+    "PreviousForm": "Tynamo",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3204,6 +3368,8 @@
   },
   {
     "Name": "Eelektross",
+    "Stage": "Stage 2",
+    "PreviousForm": "Eelektrik",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3235,6 +3401,7 @@
   },
   {
     "Name": "Helioptile",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3262,6 +3429,8 @@
   },
   {
     "Name": "Heliolisk",
+    "Stage": "Stage 1",
+    "PreviousForm": "Helioptile",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3292,6 +3461,7 @@
   },
   {
     "Name": "Pincurchin",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3322,6 +3492,7 @@
   },
   {
     "Name": "Clefairy",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3349,6 +3520,8 @@
   },
   {
     "Name": "Clefable",
+    "Stage": "Stage 1",
+    "PreviousForm": "Clefairy",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3377,6 +3550,7 @@
   },
   {
     "Name": "Abra",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -3403,6 +3577,8 @@
   },
   {
     "Name": "Kadabra",
+    "Stage": "Stage 1",
+    "PreviousForm": "Abra",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -3433,6 +3609,8 @@
   },
   {
     "Name": "Alakazam",
+    "Stage": "Stage 2",
+    "PreviousForm": "Kadabra",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -3464,6 +3642,7 @@
   },
   {
     "Name": "Slowpoke",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3492,6 +3671,8 @@
   },
   {
     "Name": "Slowbro",
+    "Stage": "Stage 1",
+    "PreviousForm": "Slowpoke",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3522,6 +3703,7 @@
   },
   {
     "Name": "Gastly",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3549,6 +3731,8 @@
   },
   {
     "Name": "Haunter",
+    "Stage": "Stage 1",
+    "PreviousForm": "Gastly",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3577,6 +3761,8 @@
   },
   {
     "Name": "Gengar",
+    "Stage": "Stage 2",
+    "PreviousForm": "Haunter",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3606,6 +3792,8 @@
   },
   {
     "Name": "Gengar ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Haunter",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3641,6 +3829,7 @@
   },
   {
     "Name": "Drowzee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3669,6 +3858,8 @@
   },
   {
     "Name": "Hypno",
+    "Stage": "Stage 1",
+    "PreviousForm": "Drowzee",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -3704,6 +3895,7 @@
   },
   {
     "Name": "Mr. Mime",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3734,6 +3926,7 @@
   },
   {
     "Name": "Jynx",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3763,6 +3956,7 @@
   },
   {
     "Name": "Mewtwo",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3795,6 +3989,7 @@
   },
   {
     "Name": "Mewtwo ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3836,6 +4031,7 @@
   },
   {
     "Name": "Ralts",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3863,6 +4059,8 @@
   },
   {
     "Name": "Kirlia",
+    "Stage": "Stage 1",
+    "PreviousForm": "Ralts",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3892,6 +4090,8 @@
   },
   {
     "Name": "Gardevoir",
+    "Stage": "Stage 2",
+    "PreviousForm": "Kirlia",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3927,6 +4127,7 @@
   },
   {
     "Name": "Woobat",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3954,6 +4155,8 @@
   },
   {
     "Name": "Swoobat",
+    "Stage": "Stage 1",
+    "PreviousForm": "Woobat",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -3982,6 +4185,7 @@
   },
   {
     "Name": "Golett",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4011,6 +4215,8 @@
   },
   {
     "Name": "Golurk",
+    "Stage": "Stage 1",
+    "PreviousForm": "Golett",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4044,6 +4250,7 @@
   },
   {
     "Name": "Sandshrew",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4071,6 +4278,8 @@
   },
   {
     "Name": "Sandslash",
+    "Stage": "Stage 1",
+    "PreviousForm": "Sandshrew",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4100,6 +4309,7 @@
   },
   {
     "Name": "Diglett",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4127,6 +4337,8 @@
   },
   {
     "Name": "Dugtrio",
+    "Stage": "Stage 1",
+    "PreviousForm": "Diglett",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4156,6 +4368,7 @@
   },
   {
     "Name": "Mankey",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4183,6 +4396,8 @@
   },
   {
     "Name": "Primeape",
+    "Stage": "Stage 1",
+    "PreviousForm": "Mankey",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4211,6 +4426,7 @@
   },
   {
     "Name": "Machop",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4238,6 +4454,8 @@
   },
   {
     "Name": "Machoke",
+    "Stage": "Stage 1",
+    "PreviousForm": "Machop",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4267,6 +4485,8 @@
   },
   {
     "Name": "Machamp",
+    "Stage": "Stage 2",
+    "PreviousForm": "Machoke",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4297,6 +4517,8 @@
   },
   {
     "Name": "Machamp ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Machoke",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4327,6 +4549,7 @@
   },
   {
     "Name": "Geodude",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4354,6 +4577,8 @@
   },
   {
     "Name": "Graveler",
+    "Stage": "Stage 1",
+    "PreviousForm": "Geodude",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4384,6 +4609,8 @@
   },
   {
     "Name": "Golem",
+    "Stage": "Stage 2",
+    "PreviousForm": "Graveler",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4416,6 +4643,7 @@
   },
   {
     "Name": "Onix",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4446,6 +4674,7 @@
   },
   {
     "Name": "Cubone",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4472,6 +4701,8 @@
   },
   {
     "Name": "Marowak",
+    "Stage": "Stage 1",
+    "PreviousForm": "Cubone",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4500,6 +4731,8 @@
   },
   {
     "Name": "Marowak ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Cubone",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4531,6 +4764,7 @@
   },
   {
     "Name": "Hitmonlee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4557,6 +4791,7 @@
   },
   {
     "Name": "Hitmonchan",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4584,6 +4819,7 @@
   },
   {
     "Name": "Rhyhorn",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4613,6 +4849,8 @@
   },
   {
     "Name": "Rhydon",
+    "Stage": "Stage 1",
+    "PreviousForm": "Rhyhorn",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4644,6 +4882,8 @@
   },
   {
     "Name": "Kabuto",
+    "Stage": "Stage 1",
+    "PreviousForm": "Dome Fossil",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4672,6 +4912,8 @@
   },
   {
     "Name": "Kabutops",
+    "Stage": "Stage 2",
+    "PreviousForm": "Kabuto",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -4701,6 +4943,7 @@
   },
   {
     "Name": "Mienfoo",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4728,6 +4971,8 @@
   },
   {
     "Name": "Mienshao",
+    "Stage": "Stage 1",
+    "PreviousForm": "Mienfoo",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4756,6 +5001,7 @@
   },
   {
     "Name": "Clobbopus",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4784,6 +5030,8 @@
   },
   {
     "Name": "Grapploct",
+    "Stage": "Stage 1",
+    "PreviousForm": "Clobbopus",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4815,6 +5063,7 @@
   },
   {
     "Name": "Ekans",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4842,6 +5091,8 @@
   },
   {
     "Name": "Arbok",
+    "Stage": "Stage 1",
+    "PreviousForm": "Ekans",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -4872,6 +5123,7 @@
   },
   {
     "Name": "Nidoran-F;",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4898,6 +5150,8 @@
   },
   {
     "Name": "Nidorina",
+    "Stage": "Stage 1",
+    "PreviousForm": "Nidoran♀",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4926,6 +5180,8 @@
   },
   {
     "Name": "Nidoqueen",
+    "Stage": "Stage 2",
+    "PreviousForm": "Nidorina",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4957,6 +5213,7 @@
   },
   {
     "Name": "Nidoran-M;",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -4984,6 +5241,8 @@
   },
   {
     "Name": "Nidorino",
+    "Stage": "Stage 1",
+    "PreviousForm": "Nidoran♂",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -5013,6 +5272,8 @@
   },
   {
     "Name": "Nidoking",
+    "Stage": "Stage 2",
+    "PreviousForm": "Nidorino",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -5044,6 +5305,7 @@
   },
   {
     "Name": "Zubat",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5071,6 +5333,8 @@
   },
   {
     "Name": "Golbat",
+    "Stage": "Stage 1",
+    "PreviousForm": "Zubat",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5099,6 +5363,7 @@
   },
   {
     "Name": "Grimer",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5127,6 +5392,8 @@
   },
   {
     "Name": "Muk",
+    "Stage": "Stage 1",
+    "PreviousForm": "Grimer",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5158,6 +5425,7 @@
   },
   {
     "Name": "Koffing",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5185,6 +5453,8 @@
   },
   {
     "Name": "Weezing",
+    "Stage": "Stage 1",
+    "PreviousForm": "Koffing",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5218,6 +5488,7 @@
   },
   {
     "Name": "Mawile",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5246,6 +5517,7 @@
   },
   {
     "Name": "Pawniard",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5273,6 +5545,8 @@
   },
   {
     "Name": "Bisharp",
+    "Stage": "Stage 1",
+    "PreviousForm": "Pawniard",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5302,6 +5576,7 @@
   },
   {
     "Name": "Meltan",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5328,6 +5603,8 @@
   },
   {
     "Name": "Melmetal",
+    "Stage": "Stage 1",
+    "PreviousForm": "Meltan",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5364,6 +5641,7 @@
   },
   {
     "Name": "Dratini",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5392,6 +5670,8 @@
   },
   {
     "Name": "Dragonair",
+    "Stage": "Stage 1",
+    "PreviousForm": "Dratini",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5422,6 +5702,8 @@
   },
   {
     "Name": "Dragonite",
+    "Stage": "Stage 2",
+    "PreviousForm": "Dragonair",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5452,6 +5734,7 @@
   },
   {
     "Name": "Pidgey",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5479,6 +5762,8 @@
   },
   {
     "Name": "Pidgeotto",
+    "Stage": "Stage 1",
+    "PreviousForm": "Pidgey",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5506,6 +5791,8 @@
   },
   {
     "Name": "Pidgeot",
+    "Stage": "Stage 2",
+    "PreviousForm": "Pidgeotto",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5540,6 +5827,7 @@
   },
   {
     "Name": "Rattata",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5567,6 +5855,8 @@
   },
   {
     "Name": "Raticate",
+    "Stage": "Stage 1",
+    "PreviousForm": "Rattata",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5594,6 +5884,7 @@
   },
   {
     "Name": "Spearow",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5621,6 +5912,8 @@
   },
   {
     "Name": "Fearow",
+    "Stage": "Stage 1",
+    "PreviousForm": "Spearow",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5650,6 +5943,7 @@
   },
   {
     "Name": "Jigglypuff",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -5678,6 +5972,8 @@
   },
   {
     "Name": "Wigglytuff",
+    "Stage": "Stage 1",
+    "PreviousForm": "Jigglypuff",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -5706,6 +6002,8 @@
   },
   {
     "Name": "Wigglytuff ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Jigglypuff",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -5737,6 +6035,7 @@
   },
   {
     "Name": "Meowth",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5765,6 +6064,8 @@
   },
   {
     "Name": "Persian",
+    "Stage": "Stage 1",
+    "PreviousForm": "Meowth",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5795,6 +6096,7 @@
   },
   {
     "Name": "Farfetch'd",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5822,6 +6124,7 @@
   },
   {
     "Name": "Doduo",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5849,6 +6152,8 @@
   },
   {
     "Name": "Dodrio",
+    "Stage": "Stage 1",
+    "PreviousForm": "Doduo",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5877,6 +6182,7 @@
   },
   {
     "Name": "Lickitung",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -5908,6 +6214,7 @@
   },
   {
     "Name": "Chansey",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -5938,6 +6245,7 @@
   },
   {
     "Name": "Kangaskhan",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5968,6 +6276,7 @@
   },
   {
     "Name": "Tauros",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -5997,6 +6306,7 @@
   },
   {
     "Name": "Ditto",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6024,6 +6334,7 @@
   },
   {
     "Name": "Eevee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6051,6 +6362,7 @@
   },
   {
     "Name": "Eevee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6078,6 +6390,7 @@
   },
   {
     "Name": "Eevee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6105,6 +6418,7 @@
   },
   {
     "Name": "Porygon",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6139,6 +6453,8 @@
   },
   {
     "Name": "Aerodactyl",
+    "Stage": "Stage 1",
+    "PreviousForm": "Old Amber",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6167,6 +6483,7 @@
   },
   {
     "Name": "Snorlax",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6198,6 +6515,7 @@
   },
   {
     "Name": "Minccino",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6225,6 +6543,8 @@
   },
   {
     "Name": "Cinccino",
+    "Stage": "Stage 1",
+    "PreviousForm": "Minccino",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6256,6 +6576,7 @@
   },
   {
     "Name": "Wooloo",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6284,6 +6605,8 @@
   },
   {
     "Name": "Dubwool",
+    "Stage": "Stage 1",
+    "PreviousForm": "Wooloo",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6475,6 +6798,7 @@
   },
   {
     "Name": "Bulbasaur",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6504,6 +6828,8 @@
   },
   {
     "Name": "Gloom",
+    "Stage": "Stage 1",
+    "PreviousForm": "Oddish",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6533,6 +6859,7 @@
   },
   {
     "Name": "Pinsir",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6564,6 +6891,7 @@
   },
   {
     "Name": "Charmander",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6593,6 +6921,8 @@
   },
   {
     "Name": "Rapidash",
+    "Stage": "Stage 1",
+    "PreviousForm": "Ponyta",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6621,6 +6951,7 @@
   },
   {
     "Name": "Squirtle",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6649,6 +6980,8 @@
   },
   {
     "Name": "Gyarados",
+    "Stage": "Stage 1",
+    "PreviousForm": "Magikarp",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6681,6 +7014,7 @@
   },
   {
     "Name": "Lapras",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6710,6 +7044,8 @@
   },
   {
     "Name": "Electrode",
+    "Stage": "Stage 1",
+    "PreviousForm": "Voltorb",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6739,6 +7075,7 @@
   },
   {
     "Name": "Slowpoke",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -6768,6 +7105,7 @@
   },
   {
     "Name": "Diglett",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6796,6 +7134,7 @@
   },
   {
     "Name": "Cubone",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6823,6 +7162,8 @@
   },
   {
     "Name": "Nidoqueen",
+    "Stage": "Stage 2",
+    "PreviousForm": "Nidorina",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6854,6 +7195,8 @@
   },
   {
     "Name": "Nidoking",
+    "Stage": "Stage 2",
+    "PreviousForm": "Nidorino",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -6885,6 +7228,8 @@
   },
   {
     "Name": "Golbat",
+    "Stage": "Stage 1",
+    "PreviousForm": "Zubat",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6913,6 +7258,8 @@
   },
   {
     "Name": "Weezing",
+    "Stage": "Stage 1",
+    "PreviousForm": "Koffing",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6946,6 +7293,8 @@
   },
   {
     "Name": "Dragonite",
+    "Stage": "Stage 2",
+    "PreviousForm": "Dragonair",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -6975,6 +7324,8 @@
   },
   {
     "Name": "Pidgeot",
+    "Stage": "Stage 2",
+    "PreviousForm": "Pidgeotto",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7008,6 +7359,7 @@
   },
   {
     "Name": "Meowth",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7037,6 +7389,7 @@
   },
   {
     "Name": "Ditto",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7064,6 +7417,7 @@
   },
   {
     "Name": "Eevee",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7092,6 +7446,7 @@
   },
   {
     "Name": "Porygon",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7126,6 +7481,7 @@
   },
   {
     "Name": "Snorlax",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7157,6 +7513,8 @@
   },
   {
     "Name": "Venusaur ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Ivysaur",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7199,6 +7557,8 @@
   },
   {
     "Name": "Exeggutor ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Exeggcute",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7229,6 +7589,8 @@
   },
   {
     "Name": "Charizard ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Charmeleon",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7271,6 +7633,8 @@
   },
   {
     "Name": "Arcanine ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Growlithe",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7302,6 +7666,7 @@
   },
   {
     "Name": "Moltres ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7339,6 +7704,8 @@
   },
   {
     "Name": "Blastoise ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Wartortle",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7379,6 +7746,8 @@
   },
   {
     "Name": "Starmie ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Staryu",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7408,6 +7777,7 @@
   },
   {
     "Name": "Articuno ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7448,6 +7818,7 @@
   },
   {
     "Name": "Pikachu ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7478,6 +7849,7 @@
   },
   {
     "Name": "Zapdos ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7517,6 +7889,8 @@
   },
   {
     "Name": "Gengar ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Haunter",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7552,6 +7926,7 @@
   },
   {
     "Name": "Mewtwo ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7593,6 +7968,8 @@
   },
   {
     "Name": "Machamp ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Machoke",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7623,6 +8000,8 @@
   },
   {
     "Name": "Marowak ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Cubone",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7654,6 +8033,8 @@
   },
   {
     "Name": "Wigglytuff ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Jigglypuff",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7805,6 +8186,7 @@
   },
   {
     "Name": "Moltres ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7841,6 +8223,7 @@
   },
   {
     "Name": "Articuno ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7881,6 +8264,7 @@
   },
   {
     "Name": "Zapdos ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -7920,6 +8304,8 @@
   },
   {
     "Name": "Gengar ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Haunter",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -7955,6 +8341,8 @@
   },
   {
     "Name": "Machamp ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Machoke",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -7985,6 +8373,8 @@
   },
   {
     "Name": "Wigglytuff ex",
+    "Stage": "Stage 1",
+    "PreviousForm": "Jigglypuff",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -8016,6 +8406,8 @@
   },
   {
     "Name": "Charizard ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Charmeleon",
     "Set": "Genetic Apex",
     "Pack": "Charizard",
     "Rate": {
@@ -8058,6 +8450,7 @@
   },
   {
     "Name": "Pikachu ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Pikachu",
     "Rate": {
@@ -8088,6 +8481,7 @@
   },
   {
     "Name": "Mewtwo ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -8129,6 +8523,7 @@
   },
   {
     "Name": "Mew",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Unknown",
     "Rate": {
@@ -8156,6 +8551,8 @@
   },
   {
     "Name": "Charizard ex",
+    "Stage": "Stage 2",
+    "PreviousForm": "Charmeleon",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -8198,6 +8595,7 @@
   },
   {
     "Name": "Pikachu ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -8228,6 +8626,7 @@
   },
   {
     "Name": "Mewtwo ex",
+    "Stage": "Basic",
     "Set": "Genetic Apex",
     "Pack": "Mewtwo",
     "Rate": {
@@ -8360,6 +8759,7 @@
   },
   {
     "Name": "Pikachu",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8388,6 +8788,7 @@
   },
   {
     "Name": "Mewtwo",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8417,6 +8818,7 @@
   },
   {
     "Name": "Chansey",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8445,6 +8847,7 @@
   },
   {
     "Name": "Meowth",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8472,6 +8875,8 @@
   },
   {
     "Name": "Butterfree",
+    "Stage": "Stage 2",
+    "PreviousForm": "Metapod",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8505,6 +8910,7 @@
   },
   {
     "Name": "Lapras ex",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8534,6 +8940,7 @@
   },
   {
     "Name": "Pikachu",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8560,6 +8967,7 @@
   },
   {
     "Name": "Clefairy",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8586,6 +8994,7 @@
   },
   {
     "Name": "Mankey",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8613,6 +9022,8 @@
   },
   {
     "Name": "Venusaur",
+    "Stage": "Stage 2",
+    "PreviousForm": "Ivysaur",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8643,6 +9054,8 @@
   },
   {
     "Name": "Greninja",
+    "Stage": "Stage 2",
+    "PreviousForm": "Frogadier",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8676,6 +9089,8 @@
   },
   {
     "Name": "Haunter",
+    "Stage": "Stage 1",
+    "PreviousForm": "Gastly",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8702,6 +9117,7 @@
   },
   {
     "Name": "Onix",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8730,6 +9146,7 @@
   },
   {
     "Name": "Jigglypuff",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8757,6 +9174,7 @@
   },
   {
     "Name": "Bulbasaur",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {
@@ -8784,6 +9202,7 @@
   },
   {
     "Name": "Magnemite",
+    "Stage": "Basic",
     "Set": "Promo",
     "Pack": "Unknown",
     "Rate": {

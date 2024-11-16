@@ -21,5 +21,8 @@ namespace PokemonTCGPocketScrapper
 
         [JsonPropertyName("cardCount")]
         public long CardCount { get; set; }
+
+        [JsonPropertyName("code")]
+        public string Code { get; set; } = null!;
     }
 }

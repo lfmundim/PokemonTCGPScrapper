@@ -17,33 +17,40 @@ namespace PokemonTCGPScrapper
                 for (int i = 1; i <= collection.CardCount; i++)
                 {
                     string cardNumber = i.ToString("D3");
-                    string url = $"https://www.serebii.net/tcgpocket/{collection.Name}/{cardNumber}.shtml";
+                    string serebiiUrl = $"https://www.serebii.net/tcgpocket/{collection.Name}/{cardNumber}.shtml";
+                    string limitlessUrl = $"https://pocket.limitlesstcg.com/cards/{collection.Code}/{i}";
 
                     try
                     {
-                        string html = await httpClient.GetStringAsync(url);
-                        var doc = new HtmlDocument();
-                        doc.LoadHtml(html);
+                        string serebiiHtml = await httpClient.GetStringAsync(serebiiUrl);
+                        var serebiiDoc = new HtmlDocument();
+                        serebiiDoc.LoadHtml(serebiiHtml);
 
-                        string type = ExtractType(doc);
+                        string limitlessHtml = await httpClient.GetStringAsync(limitlessUrl);
+                        var limitlessDoc = new HtmlDocument();
+                        limitlessDoc.LoadHtml(limitlessHtml);
+
+                        string type = ExtractType(serebiiDoc);
                         bool isPokemon = !nonPokemonTypes.Contains(type);
 
                         var card = new Card
                         {
-                            Name = ExtractName(doc, isPokemon),
-                            Set = ExtractSetName(doc),
-                            Pack = ExtractPack(doc),
-                            Rate = ExtractRate(doc),
-                            Number = ExtractNumber(doc),
+                            Name = ExtractName(serebiiDoc, isPokemon),
+                            Stage = isPokemon ? ExtractStage(limitlessDoc) : null,
+                            PreviousForm = isPokemon ? ExtractPreviousForm(limitlessDoc) : null,
+                            Set = ExtractSetName(serebiiDoc),
+                            Pack = ExtractPack(serebiiDoc),
+                            Rate = ExtractRate(serebiiDoc),
+                            Number = ExtractNumber(serebiiDoc),
                             Details = new CardDetails
                             {
                                 Type = type,
-                                HP = ExtractHP(doc), // Fossils are Items that have HP
-                                Attacks = isPokemon ? ExtractAttacks(doc) : null,
-                                Weakness = isPokemon ? ExtractWeakness(doc) : null,
-                                RetreatCost = isPokemon ? ExtractRetreatCost(doc) : null,
-                                Abilities = isPokemon ? ExtractAbilities(doc) : null,
-                                Effect = !isPokemon ? ExtractEffect(doc) : null
+                                HP = ExtractHP(serebiiDoc), // Fossils are Items that have HP
+                                Attacks = isPokemon ? ExtractAttacks(serebiiDoc) : null,
+                                Weakness = isPokemon ? ExtractWeakness(serebiiDoc) : null,
+                                RetreatCost = isPokemon ? ExtractRetreatCost(serebiiDoc) : null,
+                                Abilities = isPokemon ? ExtractAbilities(serebiiDoc) : null,
+                                Effect = !isPokemon ? ExtractEffect(serebiiDoc) : null
                             }
                         };
 
@@ -58,6 +65,44 @@ namespace PokemonTCGPScrapper
             }
 
             return cards;
+        }
+
+        private static string ExtractStage(HtmlDocument doc)
+        {
+            // Locate the node containing the stage information
+            var stageNode = doc.DocumentNode.SelectSingleNode("//p[contains(@class, 'card-text-type')]");
+
+            if (stageNode != null)
+            {
+                string stageText = stageNode.InnerText.Trim();
+
+                // Check for "Stage #" or "Basic"
+                var match = Regex.Match(stageText, @"(Stage \d+|Basic)");
+
+                if (match.Success)
+                {
+                    return match.Value; // Return the matched stage
+                }
+            }
+
+            return "Unknown"; // Fallback if not found
+        }
+
+        private static string? ExtractPreviousForm(HtmlDocument doc)
+        {
+            // Locate the node containing the "Evolves from" text
+            var evolvesFromNode = doc.DocumentNode.SelectSingleNode("//p[contains(text(), 'Evolves from')]");
+
+            if (evolvesFromNode == null)
+            {
+                return null; // Return empty if no evolution info is found
+            }
+
+            // Extract the text and isolate the name
+            var evolvesFromText = evolvesFromNode.InnerText.Trim();
+            var match = Regex.Match(evolvesFromText, @"Evolves from\s+(.*)");
+
+            return match.Success ? match.Groups[1].Value.Trim() : null;
         }
 
         private static string ExtractName(HtmlDocument doc, bool isPokemon)
@@ -346,7 +391,7 @@ namespace PokemonTCGPScrapper
         private static int ExtractNumber(HtmlDocument doc)
         {
             var text = doc.DocumentNode.SelectSingleNode("//td/font[@size='4']/b").InnerHtml;
-            text = text.Replace("&nbsp;","");
+            text = text.Replace("&nbsp;", "");
 
             var tokens = text.Split('/');
 
