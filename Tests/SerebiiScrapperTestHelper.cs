@@ -8,19 +8,20 @@ namespace PokemonTCGPocketScrapper.Tests
     {
         public static HttpClient GetHttpClient(string sample)
         {
-            string filePath = Path.Combine(AppContext.BaseDirectory, "Samples", sample);
+            string serebiiFilePath = Path.Combine(AppContext.BaseDirectory, "Samples", $"Serebii{sample}.html");
+            string limitlessFilePath = Path.Combine(AppContext.BaseDirectory, "Samples", $"Limitless{sample}.html");
 
-            return CreateMockHttpClient(File.ReadAllText(filePath));
+            return CreateMockHttpClient(File.ReadAllText(serebiiFilePath), File.ReadAllText(limitlessFilePath));
         }
 
-        private static HttpClient CreateMockHttpClient(string responseContent)
+        private static HttpClient CreateMockHttpClient(string serebiiContent, string limitlessContent)
         {
             // Create a mock for HttpMessageHandler
             var mockHandler = new Mock<HttpMessageHandler>();
 
             // Setup the protected SendAsync method to return a custom response
             mockHandler.Protected()
-                .Setup<Task<HttpResponseMessage>>(
+                .SetupSequence<Task<HttpResponseMessage>>(
                     "SendAsync",
                     ItExpr.IsAny<HttpRequestMessage>(),
                     ItExpr.IsAny<CancellationToken>()
@@ -28,7 +29,12 @@ namespace PokemonTCGPocketScrapper.Tests
                 .ReturnsAsync(new HttpResponseMessage
                 {
                     StatusCode = HttpStatusCode.OK,
-                    Content = new StringContent(responseContent)
+                    Content = new StringContent(serebiiContent)
+                })
+                .ReturnsAsync(new HttpResponseMessage
+                {
+                    StatusCode = HttpStatusCode.OK,
+                    Content = new StringContent(limitlessContent)
                 });
 
             // Create HttpClient with the mocked handler

@@ -16,7 +16,7 @@ namespace PokemonTCGPocketScrapper.Tests
         public async Task Scrapping_RegularPokemon_Should_GetExpectedValues()
         {
             // Arrange
-            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiBulbasaur.html");
+            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("Bulbasaur");
 
             // Act
             var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
@@ -25,6 +25,8 @@ namespace PokemonTCGPocketScrapper.Tests
             cards.Should().HaveCount(1);
             var pokemon = cards[0];
             pokemon.Name.Should().Be("Bulbasaur");
+            pokemon.Stage.Should().Be("Basic");
+            pokemon.PreviousForm.Should().BeNull();
             pokemon.Number.Should().Be(1);
             pokemon.Pack.Should().Be("Mewtwo");
             pokemon.Set.Should().Be("Genetic Apex");
@@ -49,7 +51,7 @@ namespace PokemonTCGPocketScrapper.Tests
         public async Task Scrapping_PokemonWithMultipleAttacks_Should_GetExpectedValues()
         {
             // Arrange
-            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiVenusaurEx.html");
+            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("VenusaurEx");
 
             // Act
             var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
@@ -58,6 +60,8 @@ namespace PokemonTCGPocketScrapper.Tests
             cards.Should().HaveCount(1);
             var pokemon = cards[0];
             pokemon.Name.Should().Be("Venusaur ex");
+            pokemon.Stage.Should().Be("Stage 2");
+            pokemon.PreviousForm.Should().Be("Ivysaur");
             pokemon.Number.Should().Be(4);
             pokemon.Pack.Should().Be("Mewtwo");
             pokemon.Set.Should().Be("Genetic Apex");
@@ -87,7 +91,7 @@ namespace PokemonTCGPocketScrapper.Tests
         public async Task Scrapping_PokemonWithAbility_Should_GetExpectedValues()
         {
             // Arrange
-            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiButterfree.html");
+            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("Butterfree");
 
             // Act
             var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
@@ -96,6 +100,8 @@ namespace PokemonTCGPocketScrapper.Tests
             cards.Should().HaveCount(1);
             var pokemon = cards[0];
             pokemon.Name.Should().Be("Butterfree");
+            pokemon.Stage.Should().Be("Stage 2");
+            pokemon.PreviousForm.Should().Be("Metapod");
             pokemon.Number.Should().Be(7);
             pokemon.Pack.Should().Be("Pikachu");
             pokemon.Set.Should().Be("Genetic Apex");
@@ -122,7 +128,7 @@ namespace PokemonTCGPocketScrapper.Tests
         public async Task Scrapping_Trainer_Should_GetExpectedValues()
         {
             // Arrange
-            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiHelixFossil.html");
+            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("HelixFossil");
 
             // Act
             var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
@@ -150,7 +156,7 @@ namespace PokemonTCGPocketScrapper.Tests
         public async Task Scrapping_Item_Should_GetExpectedValues()
         {
             // Arrange
-            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("SerebiiPotion.html");
+            using HttpClient httpClient = SerebiiScrapperTestHelper.GetHttpClient("Potion");
 
             // Act
             var cards = await SerebiiScrapper.RunAsync([Collection], httpClient);
